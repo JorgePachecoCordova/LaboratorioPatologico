@@ -1,26 +1,30 @@
 <?php
 
 namespace App\Models;
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Paciente extends Model
 {
-    use HasFactory;    
-    
-    protected $table = 'sispatologico.pacientes';
+    use HasFactory;
 
-    protected $fillable = ['id','ci','nombre','apellido','fecha_nacimiento','edad','direccion',
-    'hc','num_asegurado','email','creatoruser_id','updateduser_id','created_at','updated_at',
-    'sexo','num_celular','descripcion','estado'];
-    
-   // protected $primaryKey = 'id';    
+    protected $table = 'pacientes';
 
-    public function pacienteExamenes(){
+    protected $fillable = [
+        'id', 'ci', 'nombre', 'apellido', 'fecha_nacimiento', 'edad',
+        'direccion', 'hc', 'num_asegurado', 'email', 'creatoruser_id',
+        'updateduser_id', 'created_at', 'updated_at', 'sexo',
+        'num_celular', 'descripcion', 'estado'
+    ];
+
+    public function pacienteExamenes()
+    {
         return $this->hasOne(Examen::class, 'paciente_id');
     }
-    public function paciente_examen_cito(){
+
+    public function paciente_examen_cito()
+    {
         return $this->hasOne(ExamenCitologia::class, 'paciente_id');
     }
 }
- 

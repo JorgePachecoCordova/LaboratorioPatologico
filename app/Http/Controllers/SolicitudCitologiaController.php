@@ -11,7 +11,7 @@ class SolicitudCitologiaController extends Controller
 {
     public function index()
     {
-        $municipios = Municipio::where( 'estado', 'TRUE')->pluck('nombre_municipio', 'id');
+        $municipios = Municipio::pluck('nombre', 'id');
          return view('Patologia.index')->with(compact('municipios')); 
     }
 

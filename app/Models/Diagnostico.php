@@ -9,7 +9,7 @@ class Diagnostico extends Model
 {
     use HasFactory;
 
-    protected $table = 'sispatologico.diagnosticos';
+    protected $table = 'diagnosticos';
 
     protected $fillable = ['id','codigo_diagnostico','descripcion_diagnostico','estado',
     'descripcion','creatoruser_id','updateduser_id','created_at','updated_at'];

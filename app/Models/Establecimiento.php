@@ -9,7 +9,7 @@ class Establecimiento extends Model
 {
     use HasFactory;
 
-    protected $table = 'sispatologico.establecimientos';
+    protected $table = 'establecimientos';
 
     protected $fillable = ['id','nombre_establecimiento','estado','municipio_id',
     'descripcion','creatoruser_id','updateduser_id','created_at','updated_at'];

@@ -9,7 +9,7 @@ class Municipio extends Model
 {
     use HasFactory;
 
-    protected $table = 'sispatologico.municipios';
+    protected $table = 'municipios';
 
     protected $fillable = ['id','nombre_municipio','estado','descripcion',
     'creatoruser_id','updateduser_id','created_at','updated_at'];

@@ -14,7 +14,7 @@ class SolicitudRuralController extends Controller
 {
     public function index()
     {
-        $municipios = Municipio::where('estado', 'TRUE')->pluck('nombre_municipio', 'id');
+        $municipios = Municipio::pluck('nombre', 'id');
        // $establecimientos = Establecimiento::where( 'estado', 'TRUE')->pluck('nombre_establecimiento', 'id');
        // dd($municipios);
         return view('SolicitudRural.index')->with(compact('municipios')); 

@@ -18,7 +18,19 @@
         <div class="row m-1">
             <div class="form-group col-md-2 col-sm-2 font-weight-bold">
                 <label for="formGroup_fecha " >Gestion </label>
-                <input type="month" class="form-control" name="gestion" id="gestion">
+                <select class="form-control custom-select" style="width: 100%" name="tipo" id="tipo">
+                    <option value="valor" disabled  selected>Selecione una opcion</option> 
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select>
                 <small id="gestion" class="form-text text-danger font-weight-bold"></small>
             </div>
             <div class="form-group col-md-2 col-sm-2 font-weight-bold">
@@ -64,7 +76,7 @@
 
 <script>
     $(document).ready(function () {
-              
+        console.log('ready');
     });
 </script>
 

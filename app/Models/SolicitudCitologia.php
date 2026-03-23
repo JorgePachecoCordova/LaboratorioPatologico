@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class SolicitudCitologia extends Model
 {
-    protected $table = 'sispatologico.solicitudcitologia';
+    protected $table = 'solicitudcitologia';
 
     protected $fillable = ['id','nro_solicitud','fecha_solicitud','municipio_id','establecimiento_id',
     'estado', 'descripcion','creatoruser_id','updateduser_id'];

@@ -93,6 +93,17 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
+        // Conexión secundaria (ODBC para Access)
+       /* 'odbc' => [
+            'driver' => 'odbc',
+            'dsn' => 'odbc:' . env('DB_ACCESS_DATABASE', 'AccessDB'),
+            'database' => env('DB_ACCESS_DATABASE', 'AccessDB'),
+            'username' => env('DB_ACCESS_USERNAME', 'sistemas'),
+            'password' => env('DB_ACCESS_PASSWORD', 'sistemas'),
+            'charset' => 'utf8',
+            'prefix'   => '',
+        ],   */
+      
     ],
 
     /*

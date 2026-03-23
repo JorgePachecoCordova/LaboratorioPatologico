@@ -72,7 +72,8 @@
                     <img src="{{ asset("assets/img/login/avatar.svg")}}" alt="profileImg">
                 </div>
                 <div class="name-job">
-                    <div class="profile_name">{{auth()->user()->persona->nombres.' '.auth()->user()->persona->apellidos}}</div>
+                    <div class="profile_name">
+                        {{ auth()->user()->persona ? auth()->user()->persona->nombres . ' ' . auth()->user()->persona->apellidos : auth()->user()->name }}
                     <div class="job">Usuario</div>
                 </div>
                 <a href="{{route('logout')}}" class="logout">
@@ -81,7 +82,7 @@
                 <ul class="sub-menu"  style="margin-top: -28px; align: center;">
                     {{--<li><a class="link_name" href="#">Administrar</a></li>-- }}
                     <span class="" style="margin: -17px; font-size: 14px; color: white">Cerrar Sesion</span>--}}
-                    <li class="link_name mt-1" style="margin-left: -14px; font-size: 14px; color: white" >Usuario: {{auth()->user()->persona->nombres.' '.auth()->user()->persona->apellidos}} </li>
+                    <li class="link_name mt-1" style="margin-left: -14px; font-size: 14px; color: white" >Usuario: {{ auth()->user()->persona ? auth()->user()->persona->nombres . ' ' . auth()->user()->persona->apellidos : auth()->user()->name }}
                     <li>
                         <a href="{{route('logout')}}" class="iconlogout">
                             <span class="mt-2" style="margin: -10px; font-size: 14px; color: white" >Cerrar Sesion</span>

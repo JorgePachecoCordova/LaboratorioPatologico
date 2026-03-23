@@ -18,12 +18,12 @@ class ReportesController extends Controller
 {
 
     public function index()
-    {
-        $users= users::orderBy('id')->get();
-       // $users = users::with(['persona'])->get();     //dd($users);
-        return view('Reportes.index', compact('users')); //->with(compact('servicios','medicos')); 
-      
-    }
+{
+    $users = users::orderBy('id')->get();
+    dd($users);
+
+    return view('Reportes.index', compact('users'));
+}
    
     public function print(Request $request)
     {

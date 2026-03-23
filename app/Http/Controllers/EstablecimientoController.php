@@ -15,7 +15,7 @@ class EstablecimientoController extends Controller
     public function index()
     {
         $establecimientos = Establecimiento::orderBy('id')->get();
-        $municipios = Municipio::orderBy('id')->where('estado', 'TRUE')->pluck('nombre_municipio', 'id');
+        $municipios = Municipio::orderBy('id')->pluck('nombre', 'id');
         return view('establecimientos.index', compact('establecimientos', 'municipios'));
     }
     public function create()
