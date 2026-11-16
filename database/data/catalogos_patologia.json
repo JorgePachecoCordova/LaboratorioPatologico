@@ -1,0 +1,4827 @@
+{
+  "fuente": "Areas.docx y tabla Distrito de Microsoft Access",
+  "secretarias_regionales": [
+    {
+      "codigo_access": "POTOSI",
+      "nombre": "POTOSI"
+    },
+    {
+      "codigo_access": "NINGUNO",
+      "nombre": "NINGUNO"
+    }
+  ],
+  "distritos": [
+    {
+      "codigo_access": "0",
+      "nombre": "URBANO"
+    },
+    {
+      "codigo_access": "1",
+      "nombre": "RURAL"
+    },
+    {
+      "codigo_access": "10",
+      "nombre": "BETANZOS"
+    },
+    {
+      "codigo_access": "11",
+      "nombre": "COTAGAITA"
+    },
+    {
+      "codigo_access": "12",
+      "nombre": "OCURI"
+    },
+    {
+      "codigo_access": "13",
+      "nombre": "POTOSI (URBANO)"
+    },
+    {
+      "codigo_access": "14",
+      "nombre": "PUNA"
+    },
+    {
+      "codigo_access": "15",
+      "nombre": "SACACA"
+    },
+    {
+      "codigo_access": "16",
+      "nombre": "TUPIZA"
+    },
+    {
+      "codigo_access": "17",
+      "nombre": "UNCIA"
+    },
+    {
+      "codigo_access": "18",
+      "nombre": "UYUNI"
+    },
+    {
+      "codigo_access": "19",
+      "nombre": "VILLAZON"
+    },
+    {
+      "codigo_access": "20",
+      "nombre": "URBANO C.S."
+    },
+    {
+      "codigo_access": "21",
+      "nombre": "URBANO P.S."
+    }
+  ],
+  "municipios": [
+    {
+      "codigo_access": "1",
+      "nombre": "BETANZOS - BETANZOS"
+    },
+    {
+      "codigo_access": "10",
+      "nombre": "CHAQUI - CHAQUI"
+    },
+    {
+      "codigo_access": "11",
+      "nombre": "COTAGAITA - COTAGAITA"
+    },
+    {
+      "codigo_access": "13",
+      "nombre": "COLQUECHACA - COLQUECHACA"
+    },
+    {
+      "codigo_access": "14",
+      "nombre": "OCURI - OCURI"
+    },
+    {
+      "codigo_access": "15",
+      "nombre": "POCOATA - POCOATA"
+    },
+    {
+      "codigo_access": "16",
+      "nombre": "RAVELO - RAVELO"
+    },
+    {
+      "codigo_access": "17",
+      "nombre": "POTOSI - POTOSI"
+    },
+    {
+      "codigo_access": "18",
+      "nombre": "POTOSI (URBANO) - TOMAVE"
+    },
+    {
+      "codigo_access": "19",
+      "nombre": "POTOSI (URBANO) - TACOBAMBA"
+    },
+    {
+      "codigo_access": "2",
+      "nombre": "POTOSI (URBANO) - BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "20",
+      "nombre": "POTOSI (URBANO) - PORCO"
+    },
+    {
+      "codigo_access": "21",
+      "nombre": "POTOSI (URBANO) - TINGUIPAYA"
+    },
+    {
+      "codigo_access": "22",
+      "nombre": "POTOSI (URBANO) - YOCALLA"
+    },
+    {
+      "codigo_access": "23",
+      "nombre": "CAIZA \"D\" - CAIZA \"D\""
+    },
+    {
+      "codigo_access": "24",
+      "nombre": "PUNA - PUNA"
+    },
+    {
+      "codigo_access": "25",
+      "nombre": "CARIPUYO - CARIPUYO"
+    },
+    {
+      "codigo_access": "26",
+      "nombre": "SACACA - SACACA"
+    },
+    {
+      "codigo_access": "29",
+      "nombre": "SACACA - ACACIO"
+    },
+    {
+      "codigo_access": "3",
+      "nombre": "TORO TORO - TORO TORO"
+    },
+    {
+      "codigo_access": "30",
+      "nombre": "TUPIZA - TUPIZA"
+    },
+    {
+      "codigo_access": "31",
+      "nombre": "ATOCHA - ATOCHA"
+    },
+    {
+      "codigo_access": "32",
+      "nombre": "MOJINETE - MOJINETE"
+    },
+    {
+      "codigo_access": "34",
+      "nombre": "TUPIZA - SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "35",
+      "nombre": "UNCIA - UNCIA"
+    },
+    {
+      "codigo_access": "36",
+      "nombre": "UNCIA - CHAYANTA"
+    },
+    {
+      "codigo_access": "37",
+      "nombre": "LLALLAGUA - LLALLAGUA"
+    },
+    {
+      "codigo_access": "4",
+      "nombre": "YOCALLA"
+    },
+    {
+      "codigo_access": "41",
+      "nombre": "LLICA - LLICA"
+    },
+    {
+      "codigo_access": "42",
+      "nombre": "TAHUA - TAHUA"
+    },
+    {
+      "codigo_access": "43",
+      "nombre": "SAN AGUSTIN - SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "44",
+      "nombre": "COLCHA \"K\" - COLCHA \"K\""
+    },
+    {
+      "codigo_access": "45",
+      "nombre": "UYUNI - UYUNI"
+    },
+    {
+      "codigo_access": "46",
+      "nombre": "VILLAZON"
+    },
+    {
+      "codigo_access": "47",
+      "nombre": "TOMAVE - TOMAVE"
+    },
+    {
+      "codigo_access": "49",
+      "nombre": "ARAMPAMPA"
+    },
+    {
+      "codigo_access": "5",
+      "nombre": "VITICHI - VITICHI"
+    },
+    {
+      "codigo_access": "50",
+      "nombre": "SAN PEDRO DE BUENA VISTA"
+    },
+    {
+      "codigo_access": "51",
+      "nombre": "CHAQUI - C.S. CHAQUI"
+    },
+    {
+      "codigo_access": "52",
+      "nombre": "CHUQUIUTA CHUQUIUTA"
+    },
+    {
+      "codigo_access": "53",
+      "nombre": "SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "54",
+      "nombre": "BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "55",
+      "nombre": "S.A.ESMORUCO C.S. ESMORUCO"
+    },
+    {
+      "codigo_access": "60",
+      "nombre": "CKOCHAS"
+    },
+    {
+      "codigo_access": "61",
+      "nombre": "SAN P. DE MACHA"
+    },
+    {
+      "codigo_access": "62",
+      "nombre": "SAN PEDRO DE QUEMES- SAN PEDRO DE QUEMES"
+    },
+    {
+      "codigo_access": "63",
+      "nombre": "YURA"
+    },
+    {
+      "codigo_access": "7",
+      "nombre": "VITICHI - VITICHI"
+    },
+    {
+      "codigo_access": "8",
+      "nombre": "RAVELO - RAVELO"
+    },
+    {
+      "codigo_access": "9",
+      "nombre": "TINGUIPAYA - TINGUIPAYA"
+    }
+  ],
+  "areas": [
+    {
+      "codigo_access": "117",
+      "nombre": "ACACIO"
+    },
+    {
+      "codigo_access": "138",
+      "nombre": "ALLINTA RUWANA SAN ROQUE"
+    },
+    {
+      "codigo_access": "118",
+      "nombre": "ARAMPAMPA"
+    },
+    {
+      "codigo_access": "119",
+      "nombre": "ATOCHA"
+    },
+    {
+      "codigo_access": "143",
+      "nombre": "AZANGARO"
+    },
+    {
+      "codigo_access": "9",
+      "nombre": "AZANGARO - C.S. KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "152",
+      "nombre": "AZANGARO - C.S. KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "141",
+      "nombre": "AZANGARO - P.S. PATI PATI"
+    },
+    {
+      "codigo_access": "7",
+      "nombre": "AZANGARO - P.S. PATI PATI"
+    },
+    {
+      "codigo_access": "107",
+      "nombre": "BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "96",
+      "nombre": "BETANZOS"
+    },
+    {
+      "codigo_access": "29",
+      "nombre": "C.C. VITICHI"
+    },
+    {
+      "codigo_access": "46",
+      "nombre": "C.S. ACACIO"
+    },
+    {
+      "codigo_access": "67",
+      "nombre": "C.S. ALLINTA RUWANA SAN ROQUE"
+    },
+    {
+      "codigo_access": "47",
+      "nombre": "C.S. ARAMPAMPA"
+    },
+    {
+      "codigo_access": "48",
+      "nombre": "C.S. ATOCHA"
+    },
+    {
+      "codigo_access": "71",
+      "nombre": "C.S. AZANGARO"
+    },
+    {
+      "codigo_access": "36",
+      "nombre": "C.S. BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "26",
+      "nombre": "C.S. BETANZOS"
+    },
+    {
+      "codigo_access": "4",
+      "nombre": "C.S. CAIZA \"D\""
+    },
+    {
+      "codigo_access": "1",
+      "nombre": "C.S. CANTUMARCA"
+    },
+    {
+      "codigo_access": "41",
+      "nombre": "C.S. CARAPUYO"
+    },
+    {
+      "codigo_access": "25",
+      "nombre": "C.S. CERRO DE PLATA"
+    },
+    {
+      "codigo_access": "27",
+      "nombre": "C.S. CHAQUI"
+    },
+    {
+      "codigo_access": "75",
+      "nombre": "C.S. CHAQUILLA"
+    },
+    {
+      "codigo_access": "52",
+      "nombre": "C.S. CHAYANTA"
+    },
+    {
+      "codigo_access": "59",
+      "nombre": "C.S. COLCHA \"K\""
+    },
+    {
+      "codigo_access": "3",
+      "nombre": "C.S. COLQUECHACA"
+    },
+    {
+      "codigo_access": "28",
+      "nombre": "C.S. COTAGAITA"
+    },
+    {
+      "codigo_access": "70",
+      "nombre": "C.S. HOSP MADRE TERES DE CALCUTA"
+    },
+    {
+      "codigo_access": "74",
+      "nombre": "C.S. HOSPITAL SAN ROQUE"
+    },
+    {
+      "codigo_access": "66",
+      "nombre": "C.S. HUARI HUARI"
+    },
+    {
+      "codigo_access": "73",
+      "nombre": "C.S. KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "11",
+      "nombre": "C.S. LAS DELICIAS"
+    },
+    {
+      "codigo_access": "53",
+      "nombre": "C.S. LLALLAGUA"
+    },
+    {
+      "codigo_access": "56",
+      "nombre": "C.S. LLICA"
+    },
+    {
+      "codigo_access": "8",
+      "nombre": "C.S. MIRAFLORES"
+    },
+    {
+      "codigo_access": "5",
+      "nombre": "C.S. MOJINETE"
+    },
+    {
+      "codigo_access": "30",
+      "nombre": "C.S. OCURI"
+    },
+    {
+      "codigo_access": "12",
+      "nombre": "C.S. PAILAVIRI"
+    },
+    {
+      "codigo_access": "13",
+      "nombre": "C.S. PARY ORCKO"
+    },
+    {
+      "codigo_access": "14",
+      "nombre": "C.S. PENAL DE CANTUMARCA"
+    },
+    {
+      "codigo_access": "15",
+      "nombre": "C.S. PLAN 40"
+    },
+    {
+      "codigo_access": "76",
+      "nombre": "C.S. PLAN 700"
+    },
+    {
+      "codigo_access": "31",
+      "nombre": "C.S. POCOATA"
+    },
+    {
+      "codigo_access": "33",
+      "nombre": "C.S. PORCO"
+    },
+    {
+      "codigo_access": "37",
+      "nombre": "C.S. POTOSI"
+    },
+    {
+      "codigo_access": "40",
+      "nombre": "C.S. PUNA"
+    },
+    {
+      "codigo_access": "32",
+      "nombre": "C.S. RAVELO"
+    },
+    {
+      "codigo_access": "43",
+      "nombre": "C.S. SACACA"
+    },
+    {
+      "codigo_access": "17",
+      "nombre": "C.S. SAGRADA FAMILIA"
+    },
+    {
+      "codigo_access": "58",
+      "nombre": "C.S. SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "65",
+      "nombre": "C.S. SAN ANSELMO"
+    },
+    {
+      "codigo_access": "50",
+      "nombre": "C.S. SAN ANTONIO DE ESMORUCO"
+    },
+    {
+      "codigo_access": "18",
+      "nombre": "C.S. SAN BENITO"
+    },
+    {
+      "codigo_access": "19",
+      "nombre": "C.S. SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "2",
+      "nombre": "C.S. SAN GERARDO"
+    },
+    {
+      "codigo_access": "51",
+      "nombre": "C.S. SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "20",
+      "nombre": "C.S. SAN PEDRO"
+    },
+    {
+      "codigo_access": "44",
+      "nombre": "C.S. SAN PEDRO DE BUENA VISTA"
+    },
+    {
+      "codigo_access": "21",
+      "nombre": "C.S. SAN ROQUE"
+    },
+    {
+      "codigo_access": "35",
+      "nombre": "C.S. TACOBAMBA"
+    },
+    {
+      "codigo_access": "57",
+      "nombre": "C.S. TAHUA"
+    },
+    {
+      "codigo_access": "64",
+      "nombre": "C.S. TARAPAYA"
+    },
+    {
+      "codigo_access": "38",
+      "nombre": "C.S. TINGUIPAYA"
+    },
+    {
+      "codigo_access": "45",
+      "nombre": "C.S. TORO TORO"
+    },
+    {
+      "codigo_access": "49",
+      "nombre": "C.S. TUPIZA"
+    },
+    {
+      "codigo_access": "54",
+      "nombre": "C.S. UNCIA"
+    },
+    {
+      "codigo_access": "62",
+      "nombre": "C.S. UYUNI"
+    },
+    {
+      "codigo_access": "22",
+      "nombre": "C.S. VILLA COLON"
+    },
+    {
+      "codigo_access": "24",
+      "nombre": "C.S. VILLA MECANICOS"
+    },
+    {
+      "codigo_access": "23",
+      "nombre": "C.S. VILLA VENEZUELA"
+    },
+    {
+      "codigo_access": "61",
+      "nombre": "C.S. VILLAZON"
+    },
+    {
+      "codigo_access": "39",
+      "nombre": "C.S. YOCALLA"
+    },
+    {
+      "codigo_access": "111",
+      "nombre": "CAIZA \"D\""
+    },
+    {
+      "codigo_access": "149",
+      "nombre": "CANDELARIA"
+    },
+    {
+      "codigo_access": "80",
+      "nombre": "CANTUMARCA"
+    },
+    {
+      "codigo_access": "113",
+      "nombre": "CARAPUYO"
+    },
+    {
+      "codigo_access": "95",
+      "nombre": "CERRO DE PLATA"
+    },
+    {
+      "codigo_access": "97",
+      "nombre": "CHAQUI"
+    },
+    {
+      "codigo_access": "147",
+      "nombre": "CHAQUILLA ALTA"
+    },
+    {
+      "codigo_access": "124",
+      "nombre": "CHAYANTA"
+    },
+    {
+      "codigo_access": "130",
+      "nombre": "COLCHA \"K\""
+    },
+    {
+      "codigo_access": "100",
+      "nombre": "COLQUECHACA"
+    },
+    {
+      "codigo_access": "63",
+      "nombre": "COTAGAITA"
+    },
+    {
+      "codigo_access": "142",
+      "nombre": "HOSP MADRE TERES DE CALCUTA"
+    },
+    {
+      "codigo_access": "69",
+      "nombre": "HOSP. BOL. CUBANO SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "153",
+      "nombre": "HOSP.- FRAY GIOVANNI EUGENIO NATALINI MAGNANI"
+    },
+    {
+      "codigo_access": "146",
+      "nombre": "HOSPITAL SAN ROQUE"
+    },
+    {
+      "codigo_access": "137",
+      "nombre": "HUARI HUARI"
+    },
+    {
+      "codigo_access": "145",
+      "nombre": "KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "82",
+      "nombre": "LAS DELICIAS"
+    },
+    {
+      "codigo_access": "125",
+      "nombre": "LLALLAGUA"
+    },
+    {
+      "codigo_access": "127",
+      "nombre": "LLICA"
+    },
+    {
+      "codigo_access": "151",
+      "nombre": "MIRAFLORES"
+    },
+    {
+      "codigo_access": "121",
+      "nombre": "MOJINETE"
+    },
+    {
+      "codigo_access": "72",
+      "nombre": "NINGUNO - NINGUNO"
+    },
+    {
+      "codigo_access": "101",
+      "nombre": "OCURI"
+    },
+    {
+      "codigo_access": "34",
+      "nombre": "P.S. TOMAVE"
+    },
+    {
+      "codigo_access": "154",
+      "nombre": "P.S. CHULLCHUCANI"
+    },
+    {
+      "codigo_access": "156",
+      "nombre": "P.S. MANQUIRI"
+    },
+    {
+      "codigo_access": "6",
+      "nombre": "P.S. SAN PEDRO DE QUEMES"
+    },
+    {
+      "codigo_access": "68",
+      "nombre": "P.S. SANTIAGO DE OCKORURO"
+    },
+    {
+      "codigo_access": "83",
+      "nombre": "PAILAVIRI"
+    },
+    {
+      "codigo_access": "84",
+      "nombre": "PARY ORCKO"
+    },
+    {
+      "codigo_access": "150",
+      "nombre": "PATI PATI"
+    },
+    {
+      "codigo_access": "85",
+      "nombre": "PENAL DE CANTUMARCA"
+    },
+    {
+      "codigo_access": "86",
+      "nombre": "PLAN 40"
+    },
+    {
+      "codigo_access": "148",
+      "nombre": "PLAN 700"
+    },
+    {
+      "codigo_access": "102",
+      "nombre": "POCOATA"
+    },
+    {
+      "codigo_access": "104",
+      "nombre": "PORCO"
+    },
+    {
+      "codigo_access": "108",
+      "nombre": "POTOSI"
+    },
+    {
+      "codigo_access": "112",
+      "nombre": "PUNA"
+    },
+    {
+      "codigo_access": "103",
+      "nombre": "RAVELO"
+    },
+    {
+      "codigo_access": "114",
+      "nombre": "SACACA"
+    },
+    {
+      "codigo_access": "87",
+      "nombre": "SAGRADA FAMILIA"
+    },
+    {
+      "codigo_access": "129",
+      "nombre": "SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "136",
+      "nombre": "SAN ANSELMO"
+    },
+    {
+      "codigo_access": "122",
+      "nombre": "SAN ANTONIO DE ESMORUCO"
+    },
+    {
+      "codigo_access": "88",
+      "nombre": "SAN BENITO"
+    },
+    {
+      "codigo_access": "89",
+      "nombre": "SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "81",
+      "nombre": "SAN GERARDO"
+    },
+    {
+      "codigo_access": "123",
+      "nombre": "SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "90",
+      "nombre": "SAN PEDRO"
+    },
+    {
+      "codigo_access": "115",
+      "nombre": "SAN PEDRO DE BUENA VISTA"
+    },
+    {
+      "codigo_access": "131",
+      "nombre": "SAN PEDRO DE QUEMES"
+    },
+    {
+      "codigo_access": "91",
+      "nombre": "SAN ROQUE"
+    },
+    {
+      "codigo_access": "139",
+      "nombre": "SANTIAGO DE OCKORURO"
+    },
+    {
+      "codigo_access": "106",
+      "nombre": "TACOBAMBA"
+    },
+    {
+      "codigo_access": "128",
+      "nombre": "TAHUA"
+    },
+    {
+      "codigo_access": "135",
+      "nombre": "TARAPAYA"
+    },
+    {
+      "codigo_access": "109",
+      "nombre": "TINGUIPAYA"
+    },
+    {
+      "codigo_access": "105",
+      "nombre": "TOMAVE"
+    },
+    {
+      "codigo_access": "116",
+      "nombre": "TORO TORO"
+    },
+    {
+      "codigo_access": "120",
+      "nombre": "TUPIZA"
+    },
+    {
+      "codigo_access": "126",
+      "nombre": "UNCIA"
+    },
+    {
+      "codigo_access": "133",
+      "nombre": "UYUNI"
+    },
+    {
+      "codigo_access": "92",
+      "nombre": "VILLA COLON"
+    },
+    {
+      "codigo_access": "94",
+      "nombre": "VILLA MECANICOS"
+    },
+    {
+      "codigo_access": "93",
+      "nombre": "VILLA VENEZUELA"
+    },
+    {
+      "codigo_access": "132",
+      "nombre": "VILLAZON"
+    },
+    {
+      "codigo_access": "99",
+      "nombre": "VITICHI"
+    },
+    {
+      "codigo_access": "110",
+      "nombre": "YOCALLA"
+    }
+  ],
+  "sectores": [
+    {
+      "codigo_access": "30",
+      "nombre": "ACACIO"
+    },
+    {
+      "codigo_access": "31",
+      "nombre": "ARAMPAMPA"
+    },
+    {
+      "codigo_access": "32",
+      "nombre": "ATOCHA"
+    },
+    {
+      "codigo_access": "20",
+      "nombre": "BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "10",
+      "nombre": "BETANZOS"
+    },
+    {
+      "codigo_access": "25",
+      "nombre": "CAIZA \"D\""
+    },
+    {
+      "codigo_access": "46",
+      "nombre": "CARCEL DE CANTUMARCA"
+    },
+    {
+      "codigo_access": "27",
+      "nombre": "CARIPUYO"
+    },
+    {
+      "codigo_access": "11",
+      "nombre": "CHAQUI"
+    },
+    {
+      "codigo_access": "39",
+      "nombre": "CHAYANTA"
+    },
+    {
+      "codigo_access": "43",
+      "nombre": "COLCHA \"K\""
+    },
+    {
+      "codigo_access": "14",
+      "nombre": "COLQUECHACA"
+    },
+    {
+      "codigo_access": "12",
+      "nombre": "COTAGAITA"
+    },
+    {
+      "codigo_access": "50",
+      "nombre": "HOSP. BOL- CUBANO"
+    },
+    {
+      "codigo_access": "47",
+      "nombre": "INNOVA SALUD"
+    },
+    {
+      "codigo_access": "41",
+      "nombre": "LLICA"
+    },
+    {
+      "codigo_access": "36",
+      "nombre": "MOJINETE"
+    },
+    {
+      "codigo_access": "5",
+      "nombre": "NINGUNO"
+    },
+    {
+      "codigo_access": "15",
+      "nombre": "OCURI"
+    },
+    {
+      "codigo_access": "16",
+      "nombre": "POCOATA"
+    },
+    {
+      "codigo_access": "18",
+      "nombre": "PORCO"
+    },
+    {
+      "codigo_access": "21",
+      "nombre": "POTOSI"
+    },
+    {
+      "codigo_access": "1",
+      "nombre": "PRO MUJER"
+    },
+    {
+      "codigo_access": "49",
+      "nombre": "PUBLICO"
+    },
+    {
+      "codigo_access": "26",
+      "nombre": "PUNA"
+    },
+    {
+      "codigo_access": "17",
+      "nombre": "RAVELO"
+    },
+    {
+      "codigo_access": "28",
+      "nombre": "SACACA"
+    },
+    {
+      "codigo_access": "42",
+      "nombre": "SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "37",
+      "nombre": "SAN ANTONIO DE ESMORUCO"
+    },
+    {
+      "codigo_access": "38",
+      "nombre": "SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "29",
+      "nombre": "SAN PEDRO DE BUENA VISTA"
+    },
+    {
+      "codigo_access": "44",
+      "nombre": "SAN PEDRO DE QUEMES"
+    },
+    {
+      "codigo_access": "2",
+      "nombre": "TACOBAMBA"
+    },
+    {
+      "codigo_access": "23",
+      "nombre": "TINGUIPAYA"
+    },
+    {
+      "codigo_access": "19",
+      "nombre": "TOMAVE"
+    },
+    {
+      "codigo_access": "3",
+      "nombre": "TORO TORO"
+    },
+    {
+      "codigo_access": "35",
+      "nombre": "TUPIZA"
+    },
+    {
+      "codigo_access": "4",
+      "nombre": "UNCIA"
+    },
+    {
+      "codigo_access": "40",
+      "nombre": "UYUNI"
+    },
+    {
+      "codigo_access": "45",
+      "nombre": "VILLAZON"
+    },
+    {
+      "codigo_access": "13",
+      "nombre": "VITICHI"
+    },
+    {
+      "codigo_access": "24",
+      "nombre": "YOCALLA"
+    }
+  ],
+  "establecimientos": [
+    {
+      "codigo_access": "4",
+      "nombre": "ACACIO - C.S. ACACIO"
+    },
+    {
+      "codigo_access": "5",
+      "nombre": "ACACIO - C.S. KIRUSILLANI"
+    },
+    {
+      "codigo_access": "6",
+      "nombre": "ACASIO - C.S. BUEN SAMARITANO"
+    },
+    {
+      "codigo_access": "7",
+      "nombre": "ACASIO - C.S. CHURITACA"
+    },
+    {
+      "codigo_access": "8",
+      "nombre": "ACASIO - C.S. PERIQUINA"
+    },
+    {
+      "codigo_access": "9",
+      "nombre": "ACASIO - P.S. PINQUIMA"
+    },
+    {
+      "codigo_access": "10",
+      "nombre": "ACASIO - P.S. TORNO KASA"
+    },
+    {
+      "codigo_access": "11",
+      "nombre": "ACASIO - P.S. TOTOROMA"
+    },
+    {
+      "codigo_access": "12",
+      "nombre": "ACASIO - P.S. VILLQUE"
+    },
+    {
+      "codigo_access": "13",
+      "nombre": "ACASIO.- C.S. TORNO KASA"
+    },
+    {
+      "codigo_access": "14",
+      "nombre": "ARAMPAMAPA - P.S. KOARACA"
+    },
+    {
+      "codigo_access": "15",
+      "nombre": "ARAMPAMPA - C.S. ARAMPAMPA"
+    },
+    {
+      "codigo_access": "16",
+      "nombre": "ARAMPAMPA - C.S. RENATO CASTRO"
+    },
+    {
+      "codigo_access": "17",
+      "nombre": "ARAMPAMPA - C.S. SANTIAGO"
+    },
+    {
+      "codigo_access": "18",
+      "nombre": "ARAMPAMPA - P.S SANCARI"
+    },
+    {
+      "codigo_access": "19",
+      "nombre": "ARAMPAMPA - P.S. ASANQUIRI"
+    },
+    {
+      "codigo_access": "20",
+      "nombre": "ARAMPAMPA - P.S. CALACHUA"
+    },
+    {
+      "codigo_access": "21",
+      "nombre": "ARAMPAMPA - P.S. SARCURI"
+    },
+    {
+      "codigo_access": "22",
+      "nombre": "ATOCHA - C.S. ANIMAS"
+    },
+    {
+      "codigo_access": "23",
+      "nombre": "ATOCHA - C.S. ATOCHA"
+    },
+    {
+      "codigo_access": "24",
+      "nombre": "ATOCHA - C.S. TATASI"
+    },
+    {
+      "codigo_access": "25",
+      "nombre": "ATOCHA - P.S. TELAMAYU"
+    },
+    {
+      "codigo_access": "26",
+      "nombre": "ATOCHA - C.S. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "27",
+      "nombre": "ATOCHA - C.S. ATOCHA"
+    },
+    {
+      "codigo_access": "28",
+      "nombre": "ATOCHA - C.S. INTEGRAL CIVIL ATOCHA"
+    },
+    {
+      "codigo_access": "29",
+      "nombre": "ATOCHA C.S. INTERNACION CIVIL ATOCHA"
+    },
+    {
+      "codigo_access": "30",
+      "nombre": "ATOCHA - C.S. SIETE SUYOS"
+    },
+    {
+      "codigo_access": "31",
+      "nombre": "ATOCHA - HOSP. CIVIL ATOCHA"
+    },
+    {
+      "codigo_access": "32",
+      "nombre": "ATOCHA - P.S. ANIMAS"
+    },
+    {
+      "codigo_access": "33",
+      "nombre": "ATOCHA - P.S. SAN VICENTE"
+    },
+    {
+      "codigo_access": "34",
+      "nombre": "ATOCHA - P.S. TATASI"
+    },
+    {
+      "codigo_access": "35",
+      "nombre": "ATOCHA - P.S. TELAMAYU"
+    },
+    {
+      "codigo_access": "961",
+      "nombre": "ATOCHA.- P.S. GUADALUPE"
+    },
+    {
+      "codigo_access": "36",
+      "nombre": "AZANGARO - C.S. AZANGARO"
+    },
+    {
+      "codigo_access": "37",
+      "nombre": "AZANGARO - C.S. KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "38",
+      "nombre": "BELEN DE URMIRI - P.S. PUITUCO"
+    },
+    {
+      "codigo_access": "39",
+      "nombre": "BELEN DE URMIRI - P.S. VACUYO"
+    },
+    {
+      "codigo_access": "40",
+      "nombre": "BELEN DE URMIRI - C.S. BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "1006",
+      "nombre": "BELEN DE URMIRI . C.S - BELEN DE URMIRI"
+    },
+    {
+      "codigo_access": "42",
+      "nombre": "BETANZOS - C.S. CHAJPI GRANDE"
+    },
+    {
+      "codigo_access": "43",
+      "nombre": "BETANZOS - C.S. MILLARES"
+    },
+    {
+      "codigo_access": "44",
+      "nombre": "BETANZOS - C.S. POCO POCO"
+    },
+    {
+      "codigo_access": "45",
+      "nombre": "BETANZOS - C.S. TIRQUIBUCO"
+    },
+    {
+      "codigo_access": "46",
+      "nombre": "BETANZOS - P.S. BUEY TAMBO"
+    },
+    {
+      "codigo_access": "47",
+      "nombre": "BETANZOS - P.S. MARIACA"
+    },
+    {
+      "codigo_access": "48",
+      "nombre": "BETANZOS - P.S. OTUYO"
+    },
+    {
+      "codigo_access": "49",
+      "nombre": "BETANZOS - P.S. QUIVI QUIVI"
+    },
+    {
+      "codigo_access": "50",
+      "nombre": "BETANZOS - P.S. QUIVINCHA"
+    },
+    {
+      "codigo_access": "51",
+      "nombre": "BETANZOS - P.S. SIPORO"
+    },
+    {
+      "codigo_access": "52",
+      "nombre": "BETANZOS - P.S. TIRISPAYA"
+    },
+    {
+      "codigo_access": "53",
+      "nombre": "BETANZOS - P.S. TECOYA"
+    },
+    {
+      "codigo_access": "41",
+      "nombre": "BETANZOS - C.S. VILLA CARMEN"
+    },
+    {
+      "codigo_access": "54",
+      "nombre": "BETANZOS - C. S. MILLARES"
+    },
+    {
+      "codigo_access": "55",
+      "nombre": "BETANZOS - C.S SIPORO"
+    },
+    {
+      "codigo_access": "56",
+      "nombre": "BETANZOS - C.S. BETANZOS"
+    },
+    {
+      "codigo_access": "57",
+      "nombre": "BETANZOS - C.S. LAGUNILLAS"
+    },
+    {
+      "codigo_access": "58",
+      "nombre": "BETANZOS - C.S. MAMAHOTA"
+    },
+    {
+      "codigo_access": "59",
+      "nombre": "BETANZOS - C.S. QUIVINCHA"
+    },
+    {
+      "codigo_access": "60",
+      "nombre": "BETANZOS - C.S. SAN BLAS DE PUITA"
+    },
+    {
+      "codigo_access": "61",
+      "nombre": "BETANZOS - C.S. TRAPICHE BAJO"
+    },
+    {
+      "codigo_access": "62",
+      "nombre": "BETANZOS - C.S. URIFAYA"
+    },
+    {
+      "codigo_access": "63",
+      "nombre": "BETANZOS - C.S. VILA VILA"
+    },
+    {
+      "codigo_access": "64",
+      "nombre": "BETANZOS - C.S. VILLA NUEVA"
+    },
+    {
+      "codigo_access": "65",
+      "nombre": "BETANZOS - I. ROBERTO LOAYZA"
+    },
+    {
+      "codigo_access": "66",
+      "nombre": "BETANZOS - P.S. COA COA"
+    },
+    {
+      "codigo_access": "67",
+      "nombre": "BETANZOS - P.S. FLORIDA"
+    },
+    {
+      "codigo_access": "68",
+      "nombre": "BETANZOS - P.S. HUANU HUANU"
+    },
+    {
+      "codigo_access": "69",
+      "nombre": "BETANZOS - P.S. POTOBAMBA"
+    },
+    {
+      "codigo_access": "70",
+      "nombre": "BETANZOS - P.S. ROBERTO LOAYZA DE BETANZOS"
+    },
+    {
+      "codigo_access": "71",
+      "nombre": "BETANZOS - P.S. SAN ANTONIO"
+    },
+    {
+      "codigo_access": "72",
+      "nombre": "BETANZOS - P.S. SAN PEDRO DE CALILA"
+    },
+    {
+      "codigo_access": "73",
+      "nombre": "BETANZOS - P.S. TROJA PAMPA"
+    },
+    {
+      "codigo_access": "74",
+      "nombre": "BETANZOS - P.S. TROJA PAMPA"
+    },
+    {
+      "codigo_access": "75",
+      "nombre": "BETANZOS - P.S. VILLA NUEVA"
+    },
+    {
+      "codigo_access": "76",
+      "nombre": "BETANZOS C.S. ANCOMAYO"
+    },
+    {
+      "codigo_access": "77",
+      "nombre": "BETANZOS C.S. AVAROA"
+    },
+    {
+      "codigo_access": "78",
+      "nombre": "BETANZOS C.S. GERONIMO DE CHAQUI"
+    },
+    {
+      "codigo_access": "79",
+      "nombre": "BETANZOS C.S. HUANU HUANO"
+    },
+    {
+      "codigo_access": "80",
+      "nombre": "BETANZOS C.S.FLORIDA"
+    },
+    {
+      "codigo_access": "81",
+      "nombre": "BETANZOS P.S. ANCO MAYO"
+    },
+    {
+      "codigo_access": "82",
+      "nombre": "BETANZOS P.S. BUEY TAMBO"
+    },
+    {
+      "codigo_access": "83",
+      "nombre": "BETANZOS P.S. POCO POCO"
+    },
+    {
+      "codigo_access": "84",
+      "nombre": "BETANZOS P.S. VIÑA QUEMADA"
+    },
+    {
+      "codigo_access": "85",
+      "nombre": "BETANZOS P.S.CHIUTALUYO"
+    },
+    {
+      "codigo_access": "1000",
+      "nombre": "CAIZA \"D\" - C. S. CUCHO INGENIO"
+    },
+    {
+      "codigo_access": "86",
+      "nombre": "CAIZA \"D\" - C.S. CAIZA \"D\""
+    },
+    {
+      "codigo_access": "87",
+      "nombre": "CAIZA \"D\" - C.S. CUCHU INGENIO"
+    },
+    {
+      "codigo_access": "88",
+      "nombre": "CAIZA \"D\" - C.S. TRES CRUCES"
+    },
+    {
+      "codigo_access": "94",
+      "nombre": "CAIZA \"D\" - C.S. TUCTAPARI"
+    },
+    {
+      "codigo_access": "98",
+      "nombre": "CAIZA \"D\" - HOSP. SAN MARTIN DE PORREZ"
+    },
+    {
+      "codigo_access": "89",
+      "nombre": "CAIZA \"D\" - P.S. ALCATUYO"
+    },
+    {
+      "codigo_access": "90",
+      "nombre": "CAIZA \"D\" - P.S. CALTAPI PUNCU"
+    },
+    {
+      "codigo_access": "91",
+      "nombre": "CAIZA \"D\" - P.S. CHILLMA"
+    },
+    {
+      "codigo_access": "95",
+      "nombre": "CAIZA \"D\" - P.S. FRAGUA"
+    },
+    {
+      "codigo_access": "96",
+      "nombre": "CAIZA \"D\" - P.S. HORNOS"
+    },
+    {
+      "codigo_access": "92",
+      "nombre": "CAIZA \"D\" - P.S. HUICHACA"
+    },
+    {
+      "codigo_access": "93",
+      "nombre": "CAIZA \"D\" - P.S. LA LAVA"
+    },
+    {
+      "codigo_access": "97",
+      "nombre": "CAIZA \"D\" - P.S. PANCOCHI"
+    },
+    {
+      "codigo_access": "100",
+      "nombre": "CAIZA D - C. S. S.M. DE PORREZ"
+    },
+    {
+      "codigo_access": "1005",
+      "nombre": "CAIZA D - C.S. FRAGUA"
+    },
+    {
+      "codigo_access": "99",
+      "nombre": "CAIZA D - C.S. TUCTAPARI"
+    },
+    {
+      "codigo_access": "101",
+      "nombre": "CAIZA D - C.S. TUCTAPARI"
+    },
+    {
+      "codigo_access": "103",
+      "nombre": "CARIPUYO - C.S. CARIPUYO"
+    },
+    {
+      "codigo_access": "105",
+      "nombre": "CARIPUYO - C.S. CORAZON DE MARIA"
+    },
+    {
+      "codigo_access": "106",
+      "nombre": "CARIPUYO - C.S. JANCO JANCO"
+    },
+    {
+      "codigo_access": "107",
+      "nombre": "CARIPUYO - C.S. LACAYA"
+    },
+    {
+      "codigo_access": "108",
+      "nombre": "CARIPUYO - C.S. PENTECOSTES"
+    },
+    {
+      "codigo_access": "109",
+      "nombre": "CARIPUYO - C.S. TOMOYO"
+    },
+    {
+      "codigo_access": "110",
+      "nombre": "CARIPUYO - HOSP. CORAZON DE MARIA"
+    },
+    {
+      "codigo_access": "111",
+      "nombre": "CARIPUYO - P. S. CHOJLLA"
+    },
+    {
+      "codigo_access": "112",
+      "nombre": "CARIPUYO - P.S HUAÑACHACA"
+    },
+    {
+      "codigo_access": "113",
+      "nombre": "CARIPUYO - P.S. CHOJLLA"
+    },
+    {
+      "codigo_access": "114",
+      "nombre": "CARIPUYO - P.S. HUANACOMA"
+    },
+    {
+      "codigo_access": "115",
+      "nombre": "CARIPUYO - P.S. JUNTAVI"
+    },
+    {
+      "codigo_access": "118",
+      "nombre": "CHAQUI - C. S. BAÑOS CHAQUI"
+    },
+    {
+      "codigo_access": "119",
+      "nombre": "CHAQUI - C.S. CHAQUI"
+    },
+    {
+      "codigo_access": "120",
+      "nombre": "CHAQUI - C.S. CHAQUI BAÑOS"
+    },
+    {
+      "codigo_access": "121",
+      "nombre": "CHAQUI - C.S. COIPASI"
+    },
+    {
+      "codigo_access": "122",
+      "nombre": "CHAQUI - C.S. SAN GERONIMO DE CHAQUI"
+    },
+    {
+      "codigo_access": "123",
+      "nombre": "CHAQUI - P.S. CHIUTALUYO"
+    },
+    {
+      "codigo_access": "116",
+      "nombre": "CHAQUI - P.S. DON DIEGO"
+    },
+    {
+      "codigo_access": "124",
+      "nombre": "CHAQUI - P.S. DON DIEGO"
+    },
+    {
+      "codigo_access": "117",
+      "nombre": "CHAQUI - P.S. PALOMAR"
+    },
+    {
+      "codigo_access": "125",
+      "nombre": "CHAQUI - P.S. SAN GERONIMO"
+    },
+    {
+      "codigo_access": "127",
+      "nombre": "CHAQUI - P.S. SILAPI"
+    },
+    {
+      "codigo_access": "130",
+      "nombre": "CHAQUI C.S. CHICO CHICO"
+    },
+    {
+      "codigo_access": "128",
+      "nombre": "CHAQUI C.S. CHIUTALUYO"
+    },
+    {
+      "codigo_access": "129",
+      "nombre": "CHAQUI C.S. DON DIEGO"
+    },
+    {
+      "codigo_access": "131",
+      "nombre": "CHAQUI P.S. CHAQUI"
+    },
+    {
+      "codigo_access": "132",
+      "nombre": "CHAQUILLA - P.S. CHAQUILLA ALTA"
+    },
+    {
+      "codigo_access": "136",
+      "nombre": "CHAYANTA - C.S. VIRGEN DEL ROSARIO AMAYAPAMPA"
+    },
+    {
+      "codigo_access": "126",
+      "nombre": "CHAYANTA - C.S. AMAYAPAMPA"
+    },
+    {
+      "codigo_access": "137",
+      "nombre": "CHAYANTA - C.S. CHAYANTA"
+    },
+    {
+      "codigo_access": "138",
+      "nombre": "CHAYANTA - C.S. COPANA"
+    },
+    {
+      "codigo_access": "139",
+      "nombre": "CHAYANTA - C.S. IRUPATA"
+    },
+    {
+      "codigo_access": "140",
+      "nombre": "CHAYANTA - C.S. PANACACHI"
+    },
+    {
+      "codigo_access": "134",
+      "nombre": "CHAYANTA - C.S. QUINTA PAMPA"
+    },
+    {
+      "codigo_access": "141",
+      "nombre": "CHAYANTA - C.S. SAN BARTOLOME DE COATACA"
+    },
+    {
+      "codigo_access": "133",
+      "nombre": "CHAYANTA - C.S. SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "142",
+      "nombre": "CHAYANTA - C.S. SAN FRANCISCO COPANA"
+    },
+    {
+      "codigo_access": "143",
+      "nombre": "CHAYANTA - C.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "135",
+      "nombre": "CHAYANTA - P. S. LAYURI"
+    },
+    {
+      "codigo_access": "144",
+      "nombre": "CHAYANTA - P.S. AYMAYA"
+    },
+    {
+      "codigo_access": "145",
+      "nombre": "CHAYANTA - P.S. CALA CALA"
+    },
+    {
+      "codigo_access": "155",
+      "nombre": "CHAYANTA - P.S. COATACA"
+    },
+    {
+      "codigo_access": "146",
+      "nombre": "CHAYANTA - P.S. CORAZON DE JESUS"
+    },
+    {
+      "codigo_access": "147",
+      "nombre": "CHAYANTA - P.S. ENTRE RIOS"
+    },
+    {
+      "codigo_access": "149",
+      "nombre": "CHAYANTA - P.S. JUTHY"
+    },
+    {
+      "codigo_access": "150",
+      "nombre": "CHAYANTA - P.S. KEHUAYLLANI"
+    },
+    {
+      "codigo_access": "153",
+      "nombre": "CHAYANTA - P.S. LAYARI"
+    },
+    {
+      "codigo_access": "156",
+      "nombre": "CHAYANTA - P.S. MARIA AUXILIADORA LAYURI"
+    },
+    {
+      "codigo_access": "152",
+      "nombre": "CHAYANTA - P.S. V. DEL ROSARIO"
+    },
+    {
+      "codigo_access": "157",
+      "nombre": "CHUQUIUTA - C.S. CHUQUIUTA"
+    },
+    {
+      "codigo_access": "158",
+      "nombre": "CHUQUIUTA - P.S. SANTA MARIA"
+    },
+    {
+      "codigo_access": "159",
+      "nombre": "CHUQUIUTA - P.S. ARANIPAMPA"
+    },
+    {
+      "codigo_access": "161",
+      "nombre": "CHUQUIUTA - P.S. BELEN"
+    },
+    {
+      "codigo_access": "162",
+      "nombre": "CHUQUIUTA - P.S. MIKANI"
+    },
+    {
+      "codigo_access": "163",
+      "nombre": "CHUQUIUTA - P.S. TOCAPALCA"
+    },
+    {
+      "codigo_access": "164",
+      "nombre": "CHUQUIUTA C.S. MIKANI"
+    },
+    {
+      "codigo_access": "165",
+      "nombre": "CHUQUIUTA P.S. TACOPALCA"
+    },
+    {
+      "codigo_access": "166",
+      "nombre": "CKOCHAS - P.S. ESQUIRI"
+    },
+    {
+      "codigo_access": "167",
+      "nombre": "CKOCHAS - C.S. AUCAPAMPA"
+    },
+    {
+      "codigo_access": "173",
+      "nombre": "CKOCHAS - C.S. CALAPAYA"
+    },
+    {
+      "codigo_access": "168",
+      "nombre": "CKOCHAS - C.S. CHECCHI"
+    },
+    {
+      "codigo_access": "169",
+      "nombre": "CKOCHAS - C.S. CKOCHAS"
+    },
+    {
+      "codigo_access": "170",
+      "nombre": "CKOCHAS - C.S. KELUYO"
+    },
+    {
+      "codigo_access": "171",
+      "nombre": "CKOCHAS - C.S. MELENA ALTA"
+    },
+    {
+      "codigo_access": "172",
+      "nombre": "CKOCHAS - C.S. MOJON CKASA"
+    },
+    {
+      "codigo_access": "174",
+      "nombre": "CKOCHAS - C.S. SAN PEDRO DE ESQUIRI"
+    },
+    {
+      "codigo_access": "175",
+      "nombre": "CKOCHAS - C.S. SAN PEDRO ESQUIRI"
+    },
+    {
+      "codigo_access": "176",
+      "nombre": "CKOCHAS - C.S. TAMBILLOS"
+    },
+    {
+      "codigo_access": "177",
+      "nombre": "CKOCHAS - C.S. TURUCHIPA"
+    },
+    {
+      "codigo_access": "178",
+      "nombre": "CKOCHAS - C.S. UYUNI"
+    },
+    {
+      "codigo_access": "179",
+      "nombre": "CKOCHAS - P.S. CARPA HUATA"
+    },
+    {
+      "codigo_access": "180",
+      "nombre": "CKOCHAS - P.S. ESCOTA"
+    },
+    {
+      "codigo_access": "181",
+      "nombre": "CKOCHAS - P.S. HUARA HUARA"
+    },
+    {
+      "codigo_access": "182",
+      "nombre": "CKOCHAS - P.S. HUAYLLAJARA"
+    },
+    {
+      "codigo_access": "183",
+      "nombre": "CKOCHAS - P.S. LADERA"
+    },
+    {
+      "codigo_access": "184",
+      "nombre": "CKOCHAS - P.S. LAJAS"
+    },
+    {
+      "codigo_access": "185",
+      "nombre": "CKOCHAS - P.S. MOJON CKASA"
+    },
+    {
+      "codigo_access": "186",
+      "nombre": "CKOCHAS - P.S. MOLLES"
+    },
+    {
+      "codigo_access": "187",
+      "nombre": "CKOCHAS - P.S. ORONCKOTA"
+    },
+    {
+      "codigo_access": "188",
+      "nombre": "CKOCHAS - P.S. SEOCOCHI"
+    },
+    {
+      "codigo_access": "189",
+      "nombre": "CKOCHAS C.S. CALAZAYA"
+    },
+    {
+      "codigo_access": "190",
+      "nombre": "CKOCHAS P.S. HUARA HUARA"
+    },
+    {
+      "codigo_access": "191",
+      "nombre": "CKOCHAS P.S. MEDIA LUNA"
+    },
+    {
+      "codigo_access": "192",
+      "nombre": "CKOCHAS P.S.CARPAHUATA"
+    },
+    {
+      "codigo_access": "193",
+      "nombre": "COLCHA \"K\" - C.S. SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "194",
+      "nombre": "COLCHA \"K\" - C.S. COLCHA \"K\""
+    },
+    {
+      "codigo_access": "195",
+      "nombre": "COLCHA \"K\" - P.S. CALCHA \"K\""
+    },
+    {
+      "codigo_access": "196",
+      "nombre": "COLCHA \"K\" - P.S. RIO GRANDE"
+    },
+    {
+      "codigo_access": "197",
+      "nombre": "COLCHA \"K\" - P.S. VINTO \"K\""
+    },
+    {
+      "codigo_access": "198",
+      "nombre": "COLCHA \"K\"- P.S. QUEHUA"
+    },
+    {
+      "codigo_access": "199",
+      "nombre": "COLCHA \" K\" - C.S. SAN JUAN"
+    },
+    {
+      "codigo_access": "200",
+      "nombre": "COLCHA \"K\" - C.S. UYUNI"
+    },
+    {
+      "codigo_access": "201",
+      "nombre": "COLCHA \"K\" - C.S. ZONIQUERA"
+    },
+    {
+      "codigo_access": "202",
+      "nombre": "COLCHA \"K\" - P.S. ZONIQUERA"
+    },
+    {
+      "codigo_access": "203",
+      "nombre": "COLCHA \"K\" - C. S. CULPINA\"K\""
+    },
+    {
+      "codigo_access": "204",
+      "nombre": "COLCHA \"K\" - C.S. COCANI"
+    },
+    {
+      "codigo_access": "205",
+      "nombre": "COLCHA \"K\" - C.S. COROMA"
+    },
+    {
+      "codigo_access": "206",
+      "nombre": "COLCHA \"K\" C.S. VILAMA"
+    },
+    {
+      "codigo_access": "207",
+      "nombre": "COLCHA \"K\" - P.S. COPACABANA"
+    },
+    {
+      "codigo_access": "208",
+      "nombre": "COLCHA \"K\" - P.S. SANTIAGO K"
+    },
+    {
+      "codigo_access": "209",
+      "nombre": "COLCHA \"K\" - P.S. VILLA MAR"
+    },
+    {
+      "codigo_access": "210",
+      "nombre": "COLCHA \"K\" - P.S. VILUYO"
+    },
+    {
+      "codigo_access": "211",
+      "nombre": "COLCHA \"K\" - SAN JUAN DE ROSARIO"
+    },
+    {
+      "codigo_access": "212",
+      "nombre": "COLCHA \"K\" C.S. POZO CABADO"
+    },
+    {
+      "codigo_access": "213",
+      "nombre": "COLCHA \"K\" P.S. AGUA DE CASTILLA"
+    },
+    {
+      "codigo_access": "214",
+      "nombre": "COLCHA \"K\" P.S. CIENEGUILLAS"
+    },
+    {
+      "codigo_access": "215",
+      "nombre": "COLCHA \"K\" P.S. SANTIAGO DE AGENCHA"
+    },
+    {
+      "codigo_access": "216",
+      "nombre": "COLCHA K - P.S. VILUYO"
+    },
+    {
+      "codigo_access": "217",
+      "nombre": "COLCHA K -C.S VILA VILA"
+    },
+    {
+      "codigo_access": "218",
+      "nombre": "COLCHA K P.S. SAN JUAN"
+    },
+    {
+      "codigo_access": "219",
+      "nombre": "COLCHA K P.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "220",
+      "nombre": "COLCHA\"K\" - P.S. VILLA MAR"
+    },
+    {
+      "codigo_access": "221",
+      "nombre": "COLCKA K P.S. VILAMA"
+    },
+    {
+      "codigo_access": "222",
+      "nombre": "COLQUECHACA - C.S. COLQUECHACA"
+    },
+    {
+      "codigo_access": "223",
+      "nombre": "COLQUECHACA - P.S. CASTILLA HUMA"
+    },
+    {
+      "codigo_access": "224",
+      "nombre": "COLQUECHACA - P.S. SALINAS"
+    },
+    {
+      "codigo_access": "225",
+      "nombre": "COLQUECHACA - C.S. CASTILLA HUMA"
+    },
+    {
+      "codigo_access": "226",
+      "nombre": "COLQUECHACA - C.S. CHAIRAPATA"
+    },
+    {
+      "codigo_access": "227",
+      "nombre": "COLQUECHACA - C.S. COLQUECHACA"
+    },
+    {
+      "codigo_access": "228",
+      "nombre": "COLQUECHACA - C.S. ROSARIO"
+    },
+    {
+      "codigo_access": "229",
+      "nombre": "COLQUECHACA - C.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "230",
+      "nombre": "COLQUECHACA - C.S. SURUMI"
+    },
+    {
+      "codigo_access": "231",
+      "nombre": "COLQUECHACA - C.S. TOMAYCURI"
+    },
+    {
+      "codigo_access": "232",
+      "nombre": "COLQUECHACA - C.S. TURCO"
+    },
+    {
+      "codigo_access": "233",
+      "nombre": "COLQUECHACA - P.S. CHUAFAYA"
+    },
+    {
+      "codigo_access": "234",
+      "nombre": "COLQUECHACA P.S. I. CHAIRAPATA"
+    },
+    {
+      "codigo_access": "235",
+      "nombre": "COLQUECHACA - P.S. JAMACHIRI"
+    },
+    {
+      "codigo_access": "236",
+      "nombre": "COLQUECHACA - P.S. ROSARIO"
+    },
+    {
+      "codigo_access": "240",
+      "nombre": "COLQUECHACA .- P.S. BELEN"
+    },
+    {
+      "codigo_access": "237",
+      "nombre": "COLQUECHACA C. S. - CHULLPA KASA"
+    },
+    {
+      "codigo_access": "238",
+      "nombre": "COLQUECHACA C. S.CHUAFAYA"
+    },
+    {
+      "codigo_access": "239",
+      "nombre": "COLQUECHACA C.S. CHULLPA CKASA"
+    },
+    {
+      "codigo_access": "241",
+      "nombre": "COLQUECHACA C.S. JANACHIRI"
+    },
+    {
+      "codigo_access": "242",
+      "nombre": "COLQUECHACA C.S. SAN SALVADOR"
+    },
+    {
+      "codigo_access": "243",
+      "nombre": "COLQUECHACA C.S. THURCO"
+    },
+    {
+      "codigo_access": "244",
+      "nombre": "COLQUECHACA C.S. ULUCHI"
+    },
+    {
+      "codigo_access": "245",
+      "nombre": "COLQUECHACA C.S. WILLQUERCOCHI"
+    },
+    {
+      "codigo_access": "246",
+      "nombre": "COLQUECHACA P.S. CERRO GORDO"
+    },
+    {
+      "codigo_access": "247",
+      "nombre": "COLQUECHACA P.S. IRUCOYANA"
+    },
+    {
+      "codigo_access": "248",
+      "nombre": "COLQUECHACA P.S. KAROJA"
+    },
+    {
+      "codigo_access": "249",
+      "nombre": "COLQUECHACA P.S. KAROZA"
+    },
+    {
+      "codigo_access": "250",
+      "nombre": "COLQUECHACA P.S.WILQUEROCHI"
+    },
+    {
+      "codigo_access": "251",
+      "nombre": "COTAGAITA - C.S. CKARA CKARA"
+    },
+    {
+      "codigo_access": "252",
+      "nombre": "COTAGAITA - C.S. PALCA HIGUERAS"
+    },
+    {
+      "codigo_access": "253",
+      "nombre": "COTAGAITA - C.S. TOROPALCA"
+    },
+    {
+      "codigo_access": "254",
+      "nombre": "COTAGAITA - C.S. TUMUSLA"
+    },
+    {
+      "codigo_access": "255",
+      "nombre": "COTAGAITA - HOSP. SAN J DE DIOS"
+    },
+    {
+      "codigo_access": "256",
+      "nombre": "COTAGAITA - P.S. CALILA"
+    },
+    {
+      "codigo_access": "257",
+      "nombre": "COTAGAITA - P.S. CALVI"
+    },
+    {
+      "codigo_access": "258",
+      "nombre": "COTAGAITA - P.S. CAZON"
+    },
+    {
+      "codigo_access": "259",
+      "nombre": "COTAGAITA - P.S. CHUI CHUI"
+    },
+    {
+      "codigo_access": "260",
+      "nombre": "COTAGAITA - P.S. COLLPA UNO"
+    },
+    {
+      "codigo_access": "261",
+      "nombre": "COTAGAITA - P.S. ESCARA"
+    },
+    {
+      "codigo_access": "262",
+      "nombre": "COTAGAITA - P.S. JACOSCAPA"
+    },
+    {
+      "codigo_access": "263",
+      "nombre": "COTAGAITA - P.S. PAMPA GRANDE"
+    },
+    {
+      "codigo_access": "264",
+      "nombre": "COTAGAITA - P.S. TOCLA"
+    },
+    {
+      "codigo_access": "265",
+      "nombre": "COTAGAITA - P.S. VICHACLA"
+    },
+    {
+      "codigo_access": "266",
+      "nombre": "COTAGAITA - P.S. VILLA CONCEPCIÓN"
+    },
+    {
+      "codigo_access": "267",
+      "nombre": "COTAGAITA - C.S. LAYTOYO"
+    },
+    {
+      "codigo_access": "269",
+      "nombre": "COTAGAITA - P. S. CHECOCHI"
+    },
+    {
+      "codigo_access": "268",
+      "nombre": "COTAGAITA - P. S. CORNACA"
+    },
+    {
+      "codigo_access": "270",
+      "nombre": "COTAGAITA - P. S. LAYTAPI"
+    },
+    {
+      "codigo_access": "271",
+      "nombre": "COTAGAITA - P. S. SAGRARIO"
+    },
+    {
+      "codigo_access": "272",
+      "nombre": "COTAGAITA - P.S. MOCKO PATA"
+    },
+    {
+      "codigo_access": "273",
+      "nombre": "COTAGAITA - P.S. PALCALILI"
+    },
+    {
+      "codigo_access": "274",
+      "nombre": "COTAGAITA - P.S. RANCHO PALCA HIGUERAS"
+    },
+    {
+      "codigo_access": "275",
+      "nombre": "COTAGAITA - C. S. VITICHI"
+    },
+    {
+      "codigo_access": "276",
+      "nombre": "COTAGAITA - C.S. YAWISLA"
+    },
+    {
+      "codigo_access": "277",
+      "nombre": "COTAGAITA - C.S. ASCANTY"
+    },
+    {
+      "codigo_access": "278",
+      "nombre": "COTAGAITA - C.S. CORNOCA"
+    },
+    {
+      "codigo_access": "279",
+      "nombre": "COTAGAITA - C.S. COTAGAITA"
+    },
+    {
+      "codigo_access": "280",
+      "nombre": "COTAGAITA - C.S. PECKA"
+    },
+    {
+      "codigo_access": "281",
+      "nombre": "COTAGAITA - C.S. RAMADAS"
+    },
+    {
+      "codigo_access": "282",
+      "nombre": "COTAGAITA - C.S. SAN JORGE"
+    },
+    {
+      "codigo_access": "283",
+      "nombre": "COTAGAITA - C.S. SURMAJCHI"
+    },
+    {
+      "codigo_access": "284",
+      "nombre": "COTAGAITA - C.S. TAPCHIQUIRA"
+    },
+    {
+      "codigo_access": "285",
+      "nombre": "COTAGAITA - C.S. TASNA"
+    },
+    {
+      "codigo_access": "286",
+      "nombre": "COTAGAITA - C.S. TOLALAYA"
+    },
+    {
+      "codigo_access": "287",
+      "nombre": "COTAGAITA - C.S. TUSQUIÑA"
+    },
+    {
+      "codigo_access": "288",
+      "nombre": "COTAGAITA - P. S. COTAGAITILLA"
+    },
+    {
+      "codigo_access": "289",
+      "nombre": "COTAGAITA - P. S. TOTORA"
+    },
+    {
+      "codigo_access": "290",
+      "nombre": "COTAGAITA - P.S. ASCANTI"
+    },
+    {
+      "codigo_access": "291",
+      "nombre": "COTAGAITA - P.S. QUECHISLA"
+    },
+    {
+      "codigo_access": "292",
+      "nombre": "COTAGAITA - P.S. SAN JORGE"
+    },
+    {
+      "codigo_access": "293",
+      "nombre": "COTAGAITA - P.S. TABLAYA CHICA"
+    },
+    {
+      "codigo_access": "294",
+      "nombre": "COTAGAITA - P.S. THAPI"
+    },
+    {
+      "codigo_access": "295",
+      "nombre": "COTAGAITA - P.S. THAPI"
+    },
+    {
+      "codigo_access": "296",
+      "nombre": "COTAGAITA - P.S. VILLA CARMEN"
+    },
+    {
+      "codigo_access": "299",
+      "nombre": "COTAGAITA C.S. ASCANTI"
+    },
+    {
+      "codigo_access": "300",
+      "nombre": "COTAGAITA C.S. CHECOCHI"
+    },
+    {
+      "codigo_access": "301",
+      "nombre": "COTAGAITA C.S. LIMETA"
+    },
+    {
+      "codigo_access": "297",
+      "nombre": "COTAGAITA C.S. MOKOPATA"
+    },
+    {
+      "codigo_access": "298",
+      "nombre": "COTAGAITA C.S. SAN JORGE"
+    },
+    {
+      "codigo_access": "302",
+      "nombre": "COTAGAITA P.S. CHECCHI"
+    },
+    {
+      "codigo_access": "303",
+      "nombre": "COTAGAITA P.S. LAYTAPI"
+    },
+    {
+      "codigo_access": "304",
+      "nombre": "COTAGAITA P.S. TORORA I"
+    },
+    {
+      "codigo_access": "305",
+      "nombre": "COTAGAITA P.S. URUPALCA"
+    },
+    {
+      "codigo_access": "306",
+      "nombre": "ESMORUCO - P.S. GUADALUPE"
+    },
+    {
+      "codigo_access": "958",
+      "nombre": "ESMORUCO .- P.S. RIO SECO"
+    },
+    {
+      "codigo_access": "957",
+      "nombre": "ESMORUCO.- C.S. ESMORUCO"
+    },
+    {
+      "codigo_access": "959",
+      "nombre": "ESMORUCO.- P.S. RIO MOJON"
+    },
+    {
+      "codigo_access": "307",
+      "nombre": "HUARI HUARI C.S. HUARI HUARI"
+    },
+    {
+      "codigo_access": "308",
+      "nombre": "KARACHIPAMPA - C.S. KARACHIPAMPA"
+    },
+    {
+      "codigo_access": "320",
+      "nombre": "LLALLAGUA - P.S. A. SAKAMARKA"
+    },
+    {
+      "codigo_access": "310",
+      "nombre": "LLALLAGUA - C.S. CAPUNITA"
+    },
+    {
+      "codigo_access": "312",
+      "nombre": "LLALLAGUA - C.S. CATAVI"
+    },
+    {
+      "codigo_access": "313",
+      "nombre": "LLALLAGUA - C.S. JACHOJO"
+    },
+    {
+      "codigo_access": "314",
+      "nombre": "LLALLAGUA - C.S. LLALLAGUA"
+    },
+    {
+      "codigo_access": "315",
+      "nombre": "LLALLAGUA - C.S. MADRE OBRERA"
+    },
+    {
+      "codigo_access": "316",
+      "nombre": "LLALLAGUA - C.S. SAFCI"
+    },
+    {
+      "codigo_access": "325",
+      "nombre": "LLALLAGUA - C.S. SAUTA"
+    },
+    {
+      "codigo_access": "317",
+      "nombre": "LLALLAGUA - C.S. SIGLO XX"
+    },
+    {
+      "codigo_access": "963",
+      "nombre": "LLALLAGUA - C.S. VILLA 22 DE DICIEMBRE"
+    },
+    {
+      "codigo_access": "318",
+      "nombre": "LLALLAGUA - CRECER"
+    },
+    {
+      "codigo_access": "309",
+      "nombre": "LLALLAGUA - HOSP. MADRE OBRERA"
+    },
+    {
+      "codigo_access": "319",
+      "nombre": "LLALLAGUA - P.S. SAUTA"
+    },
+    {
+      "codigo_access": "311",
+      "nombre": "LLALLAGUA - P.S. CAMANI"
+    },
+    {
+      "codigo_access": "321",
+      "nombre": "LLALLAGUA - P.S. CAPURITA"
+    },
+    {
+      "codigo_access": "326",
+      "nombre": "LLALLAGUA - P.S. CUTURI"
+    },
+    {
+      "codigo_access": "322",
+      "nombre": "LLALLAGUA - P.S. JACHOJO"
+    },
+    {
+      "codigo_access": "327",
+      "nombre": "LLALLAGUA - P.S. KAMANI"
+    },
+    {
+      "codigo_access": "323",
+      "nombre": "LLALLAGUA - P.S. SACA SACA"
+    },
+    {
+      "codigo_access": "328",
+      "nombre": "LLALLAGUA - P.S. UNCIA"
+    },
+    {
+      "codigo_access": "329",
+      "nombre": "LLALLAGUA - P.S. UYUNI"
+    },
+    {
+      "codigo_access": "324",
+      "nombre": "LLALLAGUA - P.S. VILLA ARBOLITOS"
+    },
+    {
+      "codigo_access": "331",
+      "nombre": "LLICA - C.S. CHACOMA"
+    },
+    {
+      "codigo_access": "332",
+      "nombre": "LLICA - C.S. HOSP. SAN MARTIN DE PORREZ"
+    },
+    {
+      "codigo_access": "333",
+      "nombre": "LLICA - C.S. LLICA"
+    },
+    {
+      "codigo_access": "334",
+      "nombre": "LLICA - C.S. SAN MARTIN"
+    },
+    {
+      "codigo_access": "335",
+      "nombre": "LLICA - C.S. TRES CRUCES"
+    },
+    {
+      "codigo_access": "330",
+      "nombre": "LLICA - C.S. VILLA AROMA"
+    },
+    {
+      "codigo_access": "342",
+      "nombre": "LLICA - P.S. BELLA VISTA"
+    },
+    {
+      "codigo_access": "337",
+      "nombre": "LLICA - P.S. HUANAQUE"
+    },
+    {
+      "codigo_access": "336",
+      "nombre": "LLICA - P.S. HUANAQUE"
+    },
+    {
+      "codigo_access": "338",
+      "nombre": "LLICA - P.S. PALAYA"
+    },
+    {
+      "codigo_access": "339",
+      "nombre": "LLICA - P.S. QUEMAS"
+    },
+    {
+      "codigo_access": "340",
+      "nombre": "LLICA - P.S. SEJCIHUA"
+    },
+    {
+      "codigo_access": "341",
+      "nombre": "LLICA - P.S. SEJCIWA"
+    },
+    {
+      "codigo_access": "343",
+      "nombre": "LLICA - P.S. TRES CRUCES"
+    },
+    {
+      "codigo_access": "345",
+      "nombre": "MACHA - C.S. CHALLVIRI"
+    },
+    {
+      "codigo_access": "344",
+      "nombre": "MACHA - C.S. SAN PEDRO DE MACHA"
+    },
+    {
+      "codigo_access": "348",
+      "nombre": "MOJINETE - C.S. MOJINETE"
+    },
+    {
+      "codigo_access": "346",
+      "nombre": "MOJINETE - C.S. MOJITE"
+    },
+    {
+      "codigo_access": "349",
+      "nombre": "MOJINETE - P.S. CASA GRANDE"
+    },
+    {
+      "codigo_access": "350",
+      "nombre": "MOJINETE - P.S. CIENEGA"
+    },
+    {
+      "codigo_access": "347",
+      "nombre": "MOJINETE - P.S.LA CIENEGA"
+    },
+    {
+      "codigo_access": "351",
+      "nombre": "MOJINETE C.S. TUPIZA"
+    },
+    {
+      "codigo_access": "355",
+      "nombre": "OCURI - C.S MARCOMA"
+    },
+    {
+      "codigo_access": "356",
+      "nombre": "OCURI - C.S SAN SALVADOR"
+    },
+    {
+      "codigo_access": "352",
+      "nombre": "OCURI - C.S. CKARA CKARA"
+    },
+    {
+      "codigo_access": "357",
+      "nombre": "OCURI - C.S. MARAGUA"
+    },
+    {
+      "codigo_access": "358",
+      "nombre": "OCURI - C.S. MARCOMA"
+    },
+    {
+      "codigo_access": "359",
+      "nombre": "OCURI - C.S. MILLUNI"
+    },
+    {
+      "codigo_access": "360",
+      "nombre": "OCURI - C.S. MOROTO"
+    },
+    {
+      "codigo_access": "361",
+      "nombre": "OCURI - C.S. MURIFAYA"
+    },
+    {
+      "codigo_access": "3",
+      "nombre": "OCURI - C.S. OCURI"
+    },
+    {
+      "codigo_access": "362",
+      "nombre": "OCURI - C.S. OCURI"
+    },
+    {
+      "codigo_access": "354",
+      "nombre": "OCURI - C.S. SAN SALVADOR"
+    },
+    {
+      "codigo_access": "364",
+      "nombre": "OCURI - P.S. CKARIMAYU"
+    },
+    {
+      "codigo_access": "363",
+      "nombre": "OCURI - P.S. JUTHY"
+    },
+    {
+      "codigo_access": "365",
+      "nombre": "OCURI - P.S. LUYUPAMPA"
+    },
+    {
+      "codigo_access": "353",
+      "nombre": "OCURI - P.S. MARAGUA"
+    },
+    {
+      "codigo_access": "366",
+      "nombre": "OCURI - P.S. PUCALOMA"
+    },
+    {
+      "codigo_access": "367",
+      "nombre": "OCURI - P.S. ROCO ROCO"
+    },
+    {
+      "codigo_access": "368",
+      "nombre": "OCURI - P.S. TAHUAREJA"
+    },
+    {
+      "codigo_access": "369",
+      "nombre": "OCURI - P.S. TAWARREJA"
+    },
+    {
+      "codigo_access": "371",
+      "nombre": "OCURI - P.S. YURIMATA"
+    },
+    {
+      "codigo_access": "370",
+      "nombre": "OCURI - P.S. YURIMATA"
+    },
+    {
+      "codigo_access": "372",
+      "nombre": "OCURI C.S SOROJCHI"
+    },
+    {
+      "codigo_access": "373",
+      "nombre": "OCURI C.S. LUYUPAMPA"
+    },
+    {
+      "codigo_access": "374",
+      "nombre": "OCURI C.S. PITANTORA"
+    },
+    {
+      "codigo_access": "375",
+      "nombre": "OCURI C.S. YURUBAMBA"
+    },
+    {
+      "codigo_access": "376",
+      "nombre": "OCURI CHARIMAYO"
+    },
+    {
+      "codigo_access": "377",
+      "nombre": "OCURI P.S MILLUNI"
+    },
+    {
+      "codigo_access": "378",
+      "nombre": "OCURI P.S. CHALLAMAYU"
+    },
+    {
+      "codigo_access": "379",
+      "nombre": "OCURI P.S. CKARA CKARA"
+    },
+    {
+      "codigo_access": "380",
+      "nombre": "P.S. STGO. DE OCKORURO"
+    },
+    {
+      "codigo_access": "383",
+      "nombre": "POCOATA - C.S. AJENCHA"
+    },
+    {
+      "codigo_access": "384",
+      "nombre": "POCOATA - C.S. CAMPAYA"
+    },
+    {
+      "codigo_access": "385",
+      "nombre": "POCOATA - C.S. LIMETA"
+    },
+    {
+      "codigo_access": "386",
+      "nombre": "POCOATA - C.S. PACOTANCA"
+    },
+    {
+      "codigo_access": "381",
+      "nombre": "POCOATA - C.S. POCOATA"
+    },
+    {
+      "codigo_access": "388",
+      "nombre": "POCOATA - C.S. QUESIMPUCO"
+    },
+    {
+      "codigo_access": "389",
+      "nombre": "POCOATA - C.S. SAN MIGUEL DE KHARI"
+    },
+    {
+      "codigo_access": "390",
+      "nombre": "POCOATA - C.S. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "391",
+      "nombre": "POCOATA - C.S. SARIJCHI"
+    },
+    {
+      "codigo_access": "392",
+      "nombre": "POCOATA - C.S. STA. MARIA TURBERIA"
+    },
+    {
+      "codigo_access": "387",
+      "nombre": "POCOATA - C.S. TOMOYO"
+    },
+    {
+      "codigo_access": "393",
+      "nombre": "POCOATA - C.S. VILLA ALCARAPI"
+    },
+    {
+      "codigo_access": "394",
+      "nombre": "POCOATA - C.S. VIRGEN DEL CARMEN"
+    },
+    {
+      "codigo_access": "395",
+      "nombre": "POCOATA - P.S. ACHUMANI"
+    },
+    {
+      "codigo_access": "396",
+      "nombre": "POCOATA - P.S. COLLANA TUICA"
+    },
+    {
+      "codigo_access": "397",
+      "nombre": "POCOATA - P.S. COLLPA KASA"
+    },
+    {
+      "codigo_access": "404",
+      "nombre": "POCOATA - P.S. CONPANOSA"
+    },
+    {
+      "codigo_access": "398",
+      "nombre": "POCOATA - P.S. HUANCARANI"
+    },
+    {
+      "codigo_access": "399",
+      "nombre": "POCOATA - P.S. LAHUATA"
+    },
+    {
+      "codigo_access": "400",
+      "nombre": "POCOATA - P.S. PIJAGA"
+    },
+    {
+      "codigo_access": "401",
+      "nombre": "POCOATA - P.S. PISAKA"
+    },
+    {
+      "codigo_access": "402",
+      "nombre": "POCOATA - P.S. PUJYUPAMPA"
+    },
+    {
+      "codigo_access": "403",
+      "nombre": "POCOATA - P.S. SORA"
+    },
+    {
+      "codigo_access": "405",
+      "nombre": "POCOATA - P.S. TOLAPAMPA"
+    },
+    {
+      "codigo_access": "406",
+      "nombre": "POCOATA - P.S. TOTORA"
+    },
+    {
+      "codigo_access": "407",
+      "nombre": "POCOATA - P.S. UREKA"
+    },
+    {
+      "codigo_access": "408",
+      "nombre": "POCOATA - P.S. YAHUACO"
+    },
+    {
+      "codigo_access": "382",
+      "nombre": "POCOATA - PS. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "409",
+      "nombre": "POCOATA C.S CAMPAYA"
+    },
+    {
+      "codigo_access": "410",
+      "nombre": "POCOATA C.S. SUCKI"
+    },
+    {
+      "codigo_access": "411",
+      "nombre": "POCOATA P.S. ALCARAPI"
+    },
+    {
+      "codigo_access": "412",
+      "nombre": "POCOATA P.S. PACOTANCA"
+    },
+    {
+      "codigo_access": "413",
+      "nombre": "POCOATA P.S. SUKI"
+    },
+    {
+      "codigo_access": "414",
+      "nombre": "POCOATA P.S. VILLA ALCARAPI"
+    },
+    {
+      "codigo_access": "415",
+      "nombre": "POCOATA. C.S. ALCARAPI"
+    },
+    {
+      "codigo_access": "416",
+      "nombre": "PORCO - C.S. AGUA DE CASTILLA"
+    },
+    {
+      "codigo_access": "417",
+      "nombre": "PORCO - C.S. CHAQUILLA"
+    },
+    {
+      "codigo_access": "418",
+      "nombre": "PORCO - C.S. CORUMA"
+    },
+    {
+      "codigo_access": "419",
+      "nombre": "PORCO - C.S. PORCO"
+    },
+    {
+      "codigo_access": "420",
+      "nombre": "PORCO - P.S. CARMA"
+    },
+    {
+      "codigo_access": "421",
+      "nombre": "PORCO C.S VACUYO"
+    },
+    {
+      "codigo_access": "422",
+      "nombre": "POTOSI - C.S. HUARI HUARI"
+    },
+    {
+      "codigo_access": "423",
+      "nombre": "POTOSI - P.S. CHAQUILLA"
+    },
+    {
+      "codigo_access": "424",
+      "nombre": "PUNA - C.S. CALAPAYA"
+    },
+    {
+      "codigo_access": "425",
+      "nombre": "PUNA - C.S. CHECCHI"
+    },
+    {
+      "codigo_access": "426",
+      "nombre": "PUNA - C.S. CHINOLI"
+    },
+    {
+      "codigo_access": "427",
+      "nombre": "PUNA - C.S. CKOCHAS"
+    },
+    {
+      "codigo_access": "428",
+      "nombre": "PUNA - C.S. KEPALLO"
+    },
+    {
+      "codigo_access": "429",
+      "nombre": "PUNA - C.S. PACASI"
+    },
+    {
+      "codigo_access": "430",
+      "nombre": "PUNA - C.S. PUNA"
+    },
+    {
+      "codigo_access": "431",
+      "nombre": "PUNA - C.S. TURUCHIPA"
+    },
+    {
+      "codigo_access": "432",
+      "nombre": "PUNA - C.S. VILACAYA"
+    },
+    {
+      "codigo_access": "433",
+      "nombre": "PUNA - C.S. KELUYO"
+    },
+    {
+      "codigo_access": "434",
+      "nombre": "PUNA - P.S. ESMERALDA ALTA"
+    },
+    {
+      "codigo_access": "435",
+      "nombre": "PUNA - P.S. ÑUQUI"
+    },
+    {
+      "codigo_access": "436",
+      "nombre": "PUNA - P.S. SAN P. ESQUIRI"
+    },
+    {
+      "codigo_access": "437",
+      "nombre": "PUNA - P.S. SUQUICHA"
+    },
+    {
+      "codigo_access": "438",
+      "nombre": "PUNA - P.S. YASCAPI"
+    },
+    {
+      "codigo_access": "439",
+      "nombre": "PUNA - P.S. TOCLA"
+    },
+    {
+      "codigo_access": "440",
+      "nombre": "PUNA - C.S. CAPAÑA"
+    },
+    {
+      "codigo_access": "441",
+      "nombre": "PUNA - C.S. CRUZ PATA"
+    },
+    {
+      "codigo_access": "442",
+      "nombre": "PUNA - C.S. HORNOS"
+    },
+    {
+      "codigo_access": "443",
+      "nombre": "PUNA - C.S. MOJONA"
+    },
+    {
+      "codigo_access": "444",
+      "nombre": "PUNA - C.S. OTAVI"
+    },
+    {
+      "codigo_access": "445",
+      "nombre": "PUNA - C.S. SAN JUAN DE DIOS PUNA"
+    },
+    {
+      "codigo_access": "446",
+      "nombre": "PUNA - C.S. SAN LORENZO"
+    },
+    {
+      "codigo_access": "449",
+      "nombre": "PUNA - P. S. SEPULTURAS"
+    },
+    {
+      "codigo_access": "450",
+      "nombre": "PUNA - P. S. TOCLA"
+    },
+    {
+      "codigo_access": "451",
+      "nombre": "PUNA - P.S. ALCATUYO"
+    },
+    {
+      "codigo_access": "452",
+      "nombre": "PUNA - P.S. HUATINA"
+    },
+    {
+      "codigo_access": "448",
+      "nombre": "PUNA - P.S. LA LUNA"
+    },
+    {
+      "codigo_access": "453",
+      "nombre": "PUNA - P.S. MICULPAYA"
+    },
+    {
+      "codigo_access": "454",
+      "nombre": "PUNA - P.S. TOMOLA"
+    },
+    {
+      "codigo_access": "455",
+      "nombre": "PUNA - P.S. TURQUIÑA"
+    },
+    {
+      "codigo_access": "456",
+      "nombre": "PUNA C.S LALAVA"
+    },
+    {
+      "codigo_access": "457",
+      "nombre": "PUNA C.S. S. ROSA DE BELEN"
+    },
+    {
+      "codigo_access": "458",
+      "nombre": "PUNA P.S. ALCATUYO"
+    },
+    {
+      "codigo_access": "459",
+      "nombre": "PUNA P.S. CAPAÑA"
+    },
+    {
+      "codigo_access": "460",
+      "nombre": "PUNA P.S. CRUZ PATA"
+    },
+    {
+      "codigo_access": "461",
+      "nombre": "PUNA P.S. CUCHO INGENIO"
+    },
+    {
+      "codigo_access": "462",
+      "nombre": "PUNA P.S. ESMERALDA"
+    },
+    {
+      "codigo_access": "463",
+      "nombre": "PUNA P.S. SANTA ROSA DE BELEN"
+    },
+    {
+      "codigo_access": "464",
+      "nombre": "PUNA P.S. TURQUIÑA"
+    },
+    {
+      "codigo_access": "465",
+      "nombre": "RAVELO - C.S. RAVELO"
+    },
+    {
+      "codigo_access": "466",
+      "nombre": "RAVELO - P.S. KUTURI"
+    },
+    {
+      "codigo_access": "467",
+      "nombre": "RAVELO - C.S. CUIRI TOJO MOLINO"
+    },
+    {
+      "codigo_access": "468",
+      "nombre": "RAVELO - C.S. PITANTORA"
+    },
+    {
+      "codigo_access": "469",
+      "nombre": "RAVELO - C.S. SAROJCHI"
+    },
+    {
+      "codigo_access": "470",
+      "nombre": "RAVELO - P. S. YURUBAMBA"
+    },
+    {
+      "codigo_access": "471",
+      "nombre": "RAVELO - C. S. HUAYCOMA"
+    },
+    {
+      "codigo_access": "472",
+      "nombre": "RAVELO - C.S. ANTORA"
+    },
+    {
+      "codigo_access": "473",
+      "nombre": "RAVELO - C.S. JANINA"
+    },
+    {
+      "codigo_access": "474",
+      "nombre": "RAVELO - C.S. KUTURI"
+    },
+    {
+      "codigo_access": "475",
+      "nombre": "RAVELO - C.S. LACAYANI"
+    },
+    {
+      "codigo_access": "476",
+      "nombre": "RAVELO - C.S. MOROTO"
+    },
+    {
+      "codigo_access": "477",
+      "nombre": "RAVELO - C.S. RAVELO"
+    },
+    {
+      "codigo_access": "478",
+      "nombre": "RAVELO - C.S. RODEO"
+    },
+    {
+      "codigo_access": "479",
+      "nombre": "RAVELO - C.S. SAN MIGUEL"
+    },
+    {
+      "codigo_access": "480",
+      "nombre": "RAVELO - C.S. SAROJCHI"
+    },
+    {
+      "codigo_access": "481",
+      "nombre": "RAVELO - C.S. SASANTA"
+    },
+    {
+      "codigo_access": "482",
+      "nombre": "RAVELO - C.S. TOMOYO"
+    },
+    {
+      "codigo_access": "483",
+      "nombre": "RAVELO - C.S. YURUBAMBA"
+    },
+    {
+      "codigo_access": "484",
+      "nombre": "RAVELO - P.S. TOROCA"
+    },
+    {
+      "codigo_access": "485",
+      "nombre": "RAVELO - P.S. YUCURI"
+    },
+    {
+      "codigo_access": "486",
+      "nombre": "RAVELO -C.S HUAYCOMA"
+    },
+    {
+      "codigo_access": "487",
+      "nombre": "RAVELO C.S. INTEGRAL S. MIGUEL"
+    },
+    {
+      "codigo_access": "488",
+      "nombre": "RAVELO C.S. TEJA MOLUCO"
+    },
+    {
+      "codigo_access": "489",
+      "nombre": "RAVELO P.S. TEJA MOLINO"
+    },
+    {
+      "codigo_access": "490",
+      "nombre": "RVELO - C.S. JAMA"
+    },
+    {
+      "codigo_access": "491",
+      "nombre": "S. A. DE ESMORUCO - P.S. GUADALUPE"
+    },
+    {
+      "codigo_access": "492",
+      "nombre": "S. A. DE ESMORUCO - P.S. RIO CHILENAS"
+    },
+    {
+      "codigo_access": "493",
+      "nombre": "S. P. DE B. VISTA - C.S. LUQUIPAMPA"
+    },
+    {
+      "codigo_access": "494",
+      "nombre": "S. P. DE BUENA VISTA C.S. ESQUENCACHI"
+    },
+    {
+      "codigo_access": "495",
+      "nombre": "S. PABLO. DE LIPEZ P.S. CERRILLOS"
+    },
+    {
+      "codigo_access": "496",
+      "nombre": "S. PEDRO C.S. MARTIN KALA"
+    },
+    {
+      "codigo_access": "497",
+      "nombre": "S. PEDRO DE B. VISTA - P.S CARARIA"
+    },
+    {
+      "codigo_access": "498",
+      "nombre": "S. PEDRO DE B. VISTA - P.S. COCHUBANDURI"
+    },
+    {
+      "codigo_access": "499",
+      "nombre": "S. PEDRO DE B.V. P.S. CHIRO KASA"
+    },
+    {
+      "codigo_access": "500",
+      "nombre": "S. PEDRO DE B.VISTA - C.S. SURAGUA"
+    },
+    {
+      "codigo_access": "2",
+      "nombre": "S.A. DE ESMORUCO - C.S. ESMORUCO"
+    },
+    {
+      "codigo_access": "501",
+      "nombre": "S.A. DE ESMORUCO - C.S. RIO MOJON"
+    },
+    {
+      "codigo_access": "502",
+      "nombre": "S.A. ESMORUCO C.S. ESMORUCO"
+    },
+    {
+      "codigo_access": "503",
+      "nombre": "S.A. ESMORUCO P.S. RIO SECO"
+    },
+    {
+      "codigo_access": "504",
+      "nombre": "S.P. BUENA VISTA - C.S. CHURA KASA"
+    },
+    {
+      "codigo_access": "505",
+      "nombre": "S.PEDRO DE B. VISTA - C. S ZAPACARI"
+    },
+    {
+      "codigo_access": "506",
+      "nombre": "SA. P. DE B. VISTA P.S. PAYRUMANI"
+    },
+    {
+      "codigo_access": "513",
+      "nombre": "SACACA - C.S JUNTAVI"
+    },
+    {
+      "codigo_access": "514",
+      "nombre": "SACACA - C.S. ASANQUIRI"
+    },
+    {
+      "codigo_access": "512",
+      "nombre": "SACACA - C.S. CARASI"
+    },
+    {
+      "codigo_access": "515",
+      "nombre": "SACACA - C.S. CHURITACA"
+    },
+    {
+      "codigo_access": "516",
+      "nombre": "SACACA - C.S. COLLOMA"
+    },
+    {
+      "codigo_access": "517",
+      "nombre": "SACACA - C.S. HUARAYA"
+    },
+    {
+      "codigo_access": "508",
+      "nombre": "SACACA - C.S. JANCO JANCO"
+    },
+    {
+      "codigo_access": "518",
+      "nombre": "SACACA - C.S. LAYUPAMPA"
+    },
+    {
+      "codigo_access": "519",
+      "nombre": "SACACA - C.S. MALLCUCHAPI"
+    },
+    {
+      "codigo_access": "520",
+      "nombre": "SACACA - C.S. MALLCUCHAPI"
+    },
+    {
+      "codigo_access": "521",
+      "nombre": "SACACA - C.S. PICHUYA"
+    },
+    {
+      "codigo_access": "507",
+      "nombre": "SACACA - C.S. SACACA"
+    },
+    {
+      "codigo_access": "522",
+      "nombre": "SACACA - C.S. SACACA"
+    },
+    {
+      "codigo_access": "523",
+      "nombre": "SACACA - C.S. SACUSUMA"
+    },
+    {
+      "codigo_access": "524",
+      "nombre": "SACACA - C.S. SAKANI"
+    },
+    {
+      "codigo_access": "525",
+      "nombre": "SACACA - C.S. SAN LUIS DE SACACA"
+    },
+    {
+      "codigo_access": "527",
+      "nombre": "SACACA - C.S. SANTIAGO"
+    },
+    {
+      "codigo_access": "528",
+      "nombre": "SACACA - C.S. SILLU SILLU"
+    },
+    {
+      "codigo_access": "529",
+      "nombre": "SACACA - C.S. TORACORI"
+    },
+    {
+      "codigo_access": "530",
+      "nombre": "SACACA - C.S. TOROTORO"
+    },
+    {
+      "codigo_access": "531",
+      "nombre": "SACACA - C.S. VIRTOMA"
+    },
+    {
+      "codigo_access": "532",
+      "nombre": "SACACA - CS. SAKANI"
+    },
+    {
+      "codigo_access": "533",
+      "nombre": "SACACA - P.S. ALTA TICANOMA"
+    },
+    {
+      "codigo_access": "534",
+      "nombre": "SACACA - P.S. ALTA TICANOMA"
+    },
+    {
+      "codigo_access": "509",
+      "nombre": "SACACA - P.S. ESQUENCACHI"
+    },
+    {
+      "codigo_access": "535",
+      "nombre": "SACACA - P.S. HUARAYA"
+    },
+    {
+      "codigo_access": "536",
+      "nombre": "SACACA - P.S. ITURATA"
+    },
+    {
+      "codigo_access": "537",
+      "nombre": "SACACA - P.S. JANKARACHI"
+    },
+    {
+      "codigo_access": "538",
+      "nombre": "SACACA - P.S. KOARACA"
+    },
+    {
+      "codigo_access": "539",
+      "nombre": "SACACA - P.S. LAYTOJO"
+    },
+    {
+      "codigo_access": "540",
+      "nombre": "SACACA - P.S. MALLCUCHAPI"
+    },
+    {
+      "codigo_access": "541",
+      "nombre": "SACACA - P.S. PIRIQUINA"
+    },
+    {
+      "codigo_access": "510",
+      "nombre": "SACACA - P.S. SAKANI"
+    },
+    {
+      "codigo_access": "511",
+      "nombre": "SACACA - P.S. SARCURI"
+    },
+    {
+      "codigo_access": "542",
+      "nombre": "SACACA - P.S. SILLU SILLU"
+    },
+    {
+      "codigo_access": "543",
+      "nombre": "SACACA - P.S. TARHUACHAPI"
+    },
+    {
+      "codigo_access": "544",
+      "nombre": "SACACA - P.S. TORNOKASA"
+    },
+    {
+      "codigo_access": "545",
+      "nombre": "SACACA - P.S. VIRTOMA"
+    },
+    {
+      "codigo_access": "546",
+      "nombre": "SACACA C.S YAMBATA"
+    },
+    {
+      "codigo_access": "547",
+      "nombre": "SACACA C.S. AÑAHUANI"
+    },
+    {
+      "codigo_access": "548",
+      "nombre": "SACACA C.S. CALVONA"
+    },
+    {
+      "codigo_access": "549",
+      "nombre": "SACACA C.S. HUMACOMA"
+    },
+    {
+      "codigo_access": "550",
+      "nombre": "SACACA C.S. PALLAPA"
+    },
+    {
+      "codigo_access": "551",
+      "nombre": "SACACA C.S. PICHUYA"
+    },
+    {
+      "codigo_access": "552",
+      "nombre": "SACACA C.S. SUYO SUYO"
+    },
+    {
+      "codigo_access": "553",
+      "nombre": "SACACA C.S. VILA VILA"
+    },
+    {
+      "codigo_access": "554",
+      "nombre": "SACACA P.S MALLKUQOTA"
+    },
+    {
+      "codigo_access": "555",
+      "nombre": "SACACA P.S. CHOJLLA"
+    },
+    {
+      "codigo_access": "556",
+      "nombre": "SACACA P.S. JANKARACHI"
+    },
+    {
+      "codigo_access": "557",
+      "nombre": "SACACA P.S. JAYU JAYU"
+    },
+    {
+      "codigo_access": "558",
+      "nombre": "SACACA P.S. JAYU JAYU"
+    },
+    {
+      "codigo_access": "559",
+      "nombre": "SACACA P.S. MALLKUQOTA"
+    },
+    {
+      "codigo_access": "560",
+      "nombre": "SACACA P.S. SAN LUIS"
+    },
+    {
+      "codigo_access": "561",
+      "nombre": "SAN A. DE ESMORUCO - P.S. RIO MOJON"
+    },
+    {
+      "codigo_access": "562",
+      "nombre": "SAN A. DE ESMORUCO - C.S.S.A. DE ESMORUCO"
+    },
+    {
+      "codigo_access": "564",
+      "nombre": "SAN AGUSTIN - C.S. ALOTA"
+    },
+    {
+      "codigo_access": "563",
+      "nombre": "SAN AGUSTIN - C.S. SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "565",
+      "nombre": "SAN AGUSTIN P. S. CERRO GORDO"
+    },
+    {
+      "codigo_access": "566",
+      "nombre": "SAN AGUSTIN C.S. DR. JOSE VELASQUEZ"
+    },
+    {
+      "codigo_access": "567",
+      "nombre": "SAN AGUSTIN P.S. INTERNACION DE SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "568",
+      "nombre": "SAN AGUSTIN P.S. TODO SANTOS"
+    },
+    {
+      "codigo_access": "570",
+      "nombre": "SAN P. DE B. VISTA P.S. ESQUENCACHI"
+    },
+    {
+      "codigo_access": "571",
+      "nombre": "SAN P. DE BUENA VISTA - P.S. PAYRUMANI"
+    },
+    {
+      "codigo_access": "572",
+      "nombre": "SAN P. DE LIPEZ - C.S. VILUYO"
+    },
+    {
+      "codigo_access": "573",
+      "nombre": "SAN P. DE LIPEZ - P.S. QUETENA CHICO"
+    },
+    {
+      "codigo_access": "574",
+      "nombre": "SAN P. DE MACHA - C.S. BOMBORI"
+    },
+    {
+      "codigo_access": "575",
+      "nombre": "SAN P. DE MACHA - C.S. CHALLVIRI"
+    },
+    {
+      "codigo_access": "576",
+      "nombre": "SAN P. DE MACHA - P.S. PALCOYO"
+    },
+    {
+      "codigo_access": "577",
+      "nombre": "SAN P. DE MACHA - P.S. SALINAS BAJA"
+    },
+    {
+      "codigo_access": "578",
+      "nombre": "SAN P. DE MACHA- C.S. TOMAYCURI"
+    },
+    {
+      "codigo_access": "579",
+      "nombre": "SAN P. DE MACHA P.S. CANTA CANTA"
+    },
+    {
+      "codigo_access": "580",
+      "nombre": "SAN P. DE QUEMES - C.S. SAN P. DE QUEMES"
+    },
+    {
+      "codigo_access": "581",
+      "nombre": "SAN P. MACHA - P.S. PAMPA COLORADA"
+    },
+    {
+      "codigo_access": "582",
+      "nombre": "SAN PABLO - C.S. QUETENA CHICO"
+    },
+    {
+      "codigo_access": "583",
+      "nombre": "SAN PABLO - C.S. SAN PABLO"
+    },
+    {
+      "codigo_access": "584",
+      "nombre": "SAN PABLO DE LIPEZ. P.S.- SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "585",
+      "nombre": "SAN PABLO - P.S. CERRILLOS"
+    },
+    {
+      "codigo_access": "587",
+      "nombre": "SAN PABLO - P.S. POLULOS"
+    },
+    {
+      "codigo_access": "588",
+      "nombre": "SAN PABLO - P.S. QUETENA GRANDE"
+    },
+    {
+      "codigo_access": "589",
+      "nombre": "SAN PABLO - P.S. RELAVE"
+    },
+    {
+      "codigo_access": "586",
+      "nombre": "SAN PABLO - P.S. RIO SAN PABLO"
+    },
+    {
+      "codigo_access": "590",
+      "nombre": "SAN PABLO - P.S. VILUYO"
+    },
+    {
+      "codigo_access": "591",
+      "nombre": "SAN PABLO C.S. KOLLPANI"
+    },
+    {
+      "codigo_access": "592",
+      "nombre": "SAN PABLO DE LIPEZ - C.S. SAN PABLO DE LIPEZ"
+    },
+    {
+      "codigo_access": "593",
+      "nombre": "SAN PABLO DE LIPEZ - C.S. SN ANTONIO DE LIPEZ"
+    },
+    {
+      "codigo_access": "594",
+      "nombre": "SAN PABLO DE LIPEZ - P.S. RELAVE"
+    },
+    {
+      "codigo_access": "595",
+      "nombre": "SAN PABLO DE LIPEZ - P.S. SANTA ISABEL"
+    },
+    {
+      "codigo_access": "596",
+      "nombre": "SAN PABLO DE LIPEZ C.S. POLULOS"
+    },
+    {
+      "codigo_access": "597",
+      "nombre": "SAN PABLO DE LIPEZ- C.S. QUETENA CHICO"
+    },
+    {
+      "codigo_access": "598",
+      "nombre": "SAN PABLO DE LIPEZ P.S. RIO SAN PABLO"
+    },
+    {
+      "codigo_access": "599",
+      "nombre": "SAN PABLO DE LIPEZ TUPIZA"
+    },
+    {
+      "codigo_access": "600",
+      "nombre": "SAN PABLO P.S. RELOVE"
+    },
+    {
+      "codigo_access": "569",
+      "nombre": "SAN PEDRO DE B. V. LUQUIPANPA"
+    },
+    {
+      "codigo_access": "601",
+      "nombre": "SAN PEDRO DE B. V. P.S. ZOPACARI"
+    },
+    {
+      "codigo_access": "602",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. ATACARI"
+    },
+    {
+      "codigo_access": "603",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. MOSCARI"
+    },
+    {
+      "codigo_access": "604",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. PAYRUMANI"
+    },
+    {
+      "codigo_access": "605",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. SILLARAYA"
+    },
+    {
+      "codigo_access": "606",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. JATUN JILA"
+    },
+    {
+      "codigo_access": "607",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. CHIQUIPAMPA"
+    },
+    {
+      "codigo_access": "608",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. CHIRO Q´ASA"
+    },
+    {
+      "codigo_access": "609",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. IPOTE"
+    },
+    {
+      "codigo_access": "610",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. IRPI IRPI"
+    },
+    {
+      "codigo_access": "611",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. MICANI"
+    },
+    {
+      "codigo_access": "612",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. QUINAMARA"
+    },
+    {
+      "codigo_access": "613",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. SAN P. DE BUENA VISTA"
+    },
+    {
+      "codigo_access": "614",
+      "nombre": "SAN PEDRO DE B. VISTA - C.S. TORACARI"
+    },
+    {
+      "codigo_access": "615",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. CARARIA"
+    },
+    {
+      "codigo_access": "616",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. CHIRIMIRA"
+    },
+    {
+      "codigo_access": "617",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. COCHU BANDURIRI"
+    },
+    {
+      "codigo_access": "618",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. MARTIN KALA"
+    },
+    {
+      "codigo_access": "619",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. ÑEQUETA"
+    },
+    {
+      "codigo_access": "620",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. POETERA"
+    },
+    {
+      "codigo_access": "621",
+      "nombre": "SAN PEDRO DE B. VISTA - P.S. SAN MARCOS"
+    },
+    {
+      "codigo_access": "622",
+      "nombre": "SAN PEDRO DE B.V. - C.S. ATACARI"
+    },
+    {
+      "codigo_access": "623",
+      "nombre": "SAN PEDRO DE B.V. - C.S. MALLCUCHAPI"
+    },
+    {
+      "codigo_access": "624",
+      "nombre": "SAN PEDRO DE B.V. - C.S. SURAGUA"
+    },
+    {
+      "codigo_access": "625",
+      "nombre": "SAN PEDRO DE BUENA VISTA - C.S.JOCARI"
+    },
+    {
+      "codigo_access": "626",
+      "nombre": "SAN PEDRO DE MACHA - C.S. BOMBORI"
+    },
+    {
+      "codigo_access": "627",
+      "nombre": "SAN PEDRO DE MACHA - C.S. AYOMA"
+    },
+    {
+      "codigo_access": "628",
+      "nombre": "SAN PEDRO DE MACHA - C.S. \"FUTINA\""
+    },
+    {
+      "codigo_access": "629",
+      "nombre": "SAN PEDRO DE MACHA - C.S. CASTILLA HUMA"
+    },
+    {
+      "codigo_access": "630",
+      "nombre": "SAN PEDRO DE MACHA - C.S. INTERNACION MACHA"
+    },
+    {
+      "codigo_access": "631",
+      "nombre": "SAN PEDRO DE MACHA - C.S. SAN PEDRO DE MACHA"
+    },
+    {
+      "codigo_access": "632",
+      "nombre": "SAN PEDRO DE MACHA - C.S. TOMAYCURI"
+    },
+    {
+      "codigo_access": "633",
+      "nombre": "SAN PEDRO DE MACHA - C.S.SALINAS ALTA"
+    },
+    {
+      "codigo_access": "634",
+      "nombre": "SAN PEDRO DE MACHA - P. S. YOCONA"
+    },
+    {
+      "codigo_access": "635",
+      "nombre": "SAN PEDRO DE MACHA - P.S. AYOMA"
+    },
+    {
+      "codigo_access": "636",
+      "nombre": "SAN PEDRO DE MACHA - P.S. CANTA CANTA"
+    },
+    {
+      "codigo_access": "637",
+      "nombre": "SAN PEDRO DE MACHA - P.S. CHOQUECAYARA"
+    },
+    {
+      "codigo_access": "638",
+      "nombre": "SAN PEDRO DE MACHA - P.S. PALCOYO"
+    },
+    {
+      "codigo_access": "639",
+      "nombre": "SAN PEDRO DE MACHA - P.S. ULUCHI"
+    },
+    {
+      "codigo_access": "640",
+      "nombre": "SAN PEDRO DE MACHA .- C.S. COLQUECAYARA"
+    },
+    {
+      "codigo_access": "641",
+      "nombre": "SAN PEDRO DE MACHA- P.S. TITIRI"
+    },
+    {
+      "codigo_access": "1007",
+      "nombre": "SAN PEDRO DE MACHA. C.S.- PAMPA COLORADA"
+    },
+    {
+      "codigo_access": "642",
+      "nombre": "SAN PEDRO DE MACHA. P.S. CHOQUECAYARA"
+    },
+    {
+      "codigo_access": "643",
+      "nombre": "SAN PEDRO DE MACHA. P.S. YOCONA"
+    },
+    {
+      "codigo_access": "644",
+      "nombre": "SAN PEDRO DE QUEMES"
+    },
+    {
+      "codigo_access": "645",
+      "nombre": "SAN PEDRO P.S LUQUIPAMPA"
+    },
+    {
+      "codigo_access": "646",
+      "nombre": "SAN. PEDRO DE B.VISTA - C.S. MARTIN KALA"
+    },
+    {
+      "codigo_access": "647",
+      "nombre": "SAN.P. DE QUEMES P.S. QUEMES"
+    },
+    {
+      "codigo_access": "652",
+      "nombre": "TACOBAMBA - C.S. COLAVI"
+    },
+    {
+      "codigo_access": "653",
+      "nombre": "TACOBAMBA - C.S. COLAVI"
+    },
+    {
+      "codigo_access": "654",
+      "nombre": "TACOBAMBA - C.S. CONDES"
+    },
+    {
+      "codigo_access": "655",
+      "nombre": "TACOBAMBA - C.S. RODEO"
+    },
+    {
+      "codigo_access": "656",
+      "nombre": "TACOBAMBA - C.S. TACOBAMBA"
+    },
+    {
+      "codigo_access": "648",
+      "nombre": "TACOBAMBA - C.S. TACOBAMBA"
+    },
+    {
+      "codigo_access": "657",
+      "nombre": "TACOBAMBA - C.S. TIRINA"
+    },
+    {
+      "codigo_access": "658",
+      "nombre": "TACOBAMBA - P.S. C. CANCHA"
+    },
+    {
+      "codigo_access": "659",
+      "nombre": "TACOBAMBA - P.S. CERCA CANCHA"
+    },
+    {
+      "codigo_access": "660",
+      "nombre": "TACOBAMBA - P.S. CHALLVIRI"
+    },
+    {
+      "codigo_access": "661",
+      "nombre": "TACOBAMBA - P.S. CONDES"
+    },
+    {
+      "codigo_access": "662",
+      "nombre": "TACOBAMBA - P.S. HUERTA MAYU"
+    },
+    {
+      "codigo_access": "649",
+      "nombre": "TACOBAMBA - P.S. KILPANI"
+    },
+    {
+      "codigo_access": "650",
+      "nombre": "TACOBAMBA - P.S. MIGMA"
+    },
+    {
+      "codigo_access": "663",
+      "nombre": "TACOBAMBA - P.S. MIGMA"
+    },
+    {
+      "codigo_access": "651",
+      "nombre": "TACOBAMBA - P.S. TACORA"
+    },
+    {
+      "codigo_access": "664",
+      "nombre": "TACOBAMBA - P.S. YAHUACARI"
+    },
+    {
+      "codigo_access": "665",
+      "nombre": "TACOBAMBA COLAVI"
+    },
+    {
+      "codigo_access": "666",
+      "nombre": "TAHUA - C.S. TAHUA"
+    },
+    {
+      "codigo_access": "669",
+      "nombre": "TAHUA - C.S. TAHUA"
+    },
+    {
+      "codigo_access": "668",
+      "nombre": "TAHUA - P.S. CAQUENA"
+    },
+    {
+      "codigo_access": "667",
+      "nombre": "TAHUA - P.S. YONZA"
+    },
+    {
+      "codigo_access": "671",
+      "nombre": "TINGUIPAYA - C.S. TINGUIPAYA"
+    },
+    {
+      "codigo_access": "672",
+      "nombre": "TINGUIPAYA - C.S. ANCKARA"
+    },
+    {
+      "codigo_access": "673",
+      "nombre": "TINGUIPAYA - C.S. ANTHURA"
+    },
+    {
+      "codigo_access": "674",
+      "nombre": "TINGUIPAYA - C.S. CAIMONA"
+    },
+    {
+      "codigo_access": "675",
+      "nombre": "TINGUIPAYA - C.S. CIENEGOMA"
+    },
+    {
+      "codigo_access": "676",
+      "nombre": "TINGUIPAYA - C.S. JAHUACAYA"
+    },
+    {
+      "codigo_access": "677",
+      "nombre": "TINGUIPAYA - C.S. NTRA. SRA. DE BALAN"
+    },
+    {
+      "codigo_access": "678",
+      "nombre": "TINGUIPAYA - C.S. NTRA. SRA. DE BELEN"
+    },
+    {
+      "codigo_access": "679",
+      "nombre": "TINGUIPAYA - C.S. PIQUIRA"
+    },
+    {
+      "codigo_access": "680",
+      "nombre": "TINGUIPAYA - C.S. PUJYU PAMPA"
+    },
+    {
+      "codigo_access": "681",
+      "nombre": "TINGUIPAYA - C.S. TITIMALLA"
+    },
+    {
+      "codigo_access": "682",
+      "nombre": "TINGUIPAYA - C.S. TUISURI"
+    },
+    {
+      "codigo_access": "683",
+      "nombre": "TINGUIPAYA - P.S. ACTARA"
+    },
+    {
+      "codigo_access": "684",
+      "nombre": "TINGUIPAYA - P.S. CALLPAPAMPA"
+    },
+    {
+      "codigo_access": "685",
+      "nombre": "TINGUIPAYA - P.S. CKELLU CANCHA"
+    },
+    {
+      "codigo_access": "686",
+      "nombre": "TINGUIPAYA - P.S. COLLPA PAMPA"
+    },
+    {
+      "codigo_access": "687",
+      "nombre": "TINGUIPAYA - P.S. JAHUACAYA"
+    },
+    {
+      "codigo_access": "689",
+      "nombre": "TINGUIPAYA - P.S. LEÑAS"
+    },
+    {
+      "codigo_access": "690",
+      "nombre": "TINGUIPAYA - P.S. MUITA"
+    },
+    {
+      "codigo_access": "691",
+      "nombre": "TINGUIPAYA - P.S. PUJYUPAMPA"
+    },
+    {
+      "codigo_access": "692",
+      "nombre": "TINGUIPAYA - P.S. SIHUAYO"
+    },
+    {
+      "codigo_access": "688",
+      "nombre": "TINGUIPAYA - P.S. SURICHATA"
+    },
+    {
+      "codigo_access": "693",
+      "nombre": "TINGUIPAYA - P.S. TALULA"
+    },
+    {
+      "codigo_access": "694",
+      "nombre": "TINGUIPAYA C.S KASANI"
+    },
+    {
+      "codigo_access": "695",
+      "nombre": "TINGUIPAYA C.S. CAIMONA PIQUIRA"
+    },
+    {
+      "codigo_access": "696",
+      "nombre": "TINGUIPAYA C.S. CHALLA MAYU"
+    },
+    {
+      "codigo_access": "697",
+      "nombre": "TINGUIPAYA C.S. ISLA"
+    },
+    {
+      "codigo_access": "698",
+      "nombre": "TINGUIPAYA C.S. LACAYANI"
+    },
+    {
+      "codigo_access": "699",
+      "nombre": "TINGUIPAYA C.S. PUCA PUNTA"
+    },
+    {
+      "codigo_access": "700",
+      "nombre": "TINGUIPAYA P.S. CALLPAPAMPA"
+    },
+    {
+      "codigo_access": "702",
+      "nombre": "TINGUIPAYA P.S. CKASANI"
+    },
+    {
+      "codigo_access": "701",
+      "nombre": "TINGUIPAYA P.S. CRISTO DE LA ASCENCION"
+    },
+    {
+      "codigo_access": "703",
+      "nombre": "TINGUIPAYA P.S. SAYACA"
+    },
+    {
+      "codigo_access": "706",
+      "nombre": "TINGUIPAYA P.S. SIHUAYO"
+    },
+    {
+      "codigo_access": "707",
+      "nombre": "TINUGUIPAYA - C.S. TINGUIPAYA"
+    },
+    {
+      "codigo_access": "712",
+      "nombre": "TOMAVE - C.S OPOCO"
+    },
+    {
+      "codigo_access": "710",
+      "nombre": "TOMAVE - C.S. CONCEPCION TOMAVE"
+    },
+    {
+      "codigo_access": "713",
+      "nombre": "TOMAVE - C.S. HUERTA MAYU"
+    },
+    {
+      "codigo_access": "733",
+      "nombre": "TOMAVE - C.S. JACHOCO"
+    },
+    {
+      "codigo_access": "714",
+      "nombre": "TOMAVE - C.S. MACHICAO"
+    },
+    {
+      "codigo_access": "708",
+      "nombre": "TOMAVE - C.S. P.S. YURA"
+    },
+    {
+      "codigo_access": "715",
+      "nombre": "TOMAVE - C.S. TACORA"
+    },
+    {
+      "codigo_access": "716",
+      "nombre": "TOMAVE - C.S. TARANA"
+    },
+    {
+      "codigo_access": "719",
+      "nombre": "TOMAVE - C.S. TICA TICA"
+    },
+    {
+      "codigo_access": "720",
+      "nombre": "TOMAVE - C.S. TOLAPAMPA"
+    },
+    {
+      "codigo_access": "721",
+      "nombre": "TOMAVE - C.S. TOMAVE"
+    },
+    {
+      "codigo_access": "722",
+      "nombre": "TOMAVE - C.S. VIRGEN DE ENCARNACION"
+    },
+    {
+      "codigo_access": "734",
+      "nombre": "TOMAVE - C.S. YURA"
+    },
+    {
+      "codigo_access": "724",
+      "nombre": "TOMAVE - P.S. CALAZAYA"
+    },
+    {
+      "codigo_access": "725",
+      "nombre": "TOMAVE - P.S. CARLOS MACHICAO"
+    },
+    {
+      "codigo_access": "726",
+      "nombre": "TOMAVE - P.S. JACHIACO"
+    },
+    {
+      "codigo_access": "727",
+      "nombre": "TOMAVE - P.S. KORKA"
+    },
+    {
+      "codigo_access": "730",
+      "nombre": "TOMAVE - P.S. TARANA"
+    },
+    {
+      "codigo_access": "735",
+      "nombre": "TOMAVE - P.S. TICA TICA"
+    },
+    {
+      "codigo_access": "709",
+      "nombre": "TOMAVE - P.S. TOMAVE"
+    },
+    {
+      "codigo_access": "731",
+      "nombre": "TOMAVE - P.S. TOTORA K"
+    },
+    {
+      "codigo_access": "732",
+      "nombre": "TOMAVE - P.S. VILUYO"
+    },
+    {
+      "codigo_access": "960",
+      "nombre": "TOMAVE .- P.S. PAJCHA"
+    },
+    {
+      "codigo_access": "737",
+      "nombre": "TORO TORO - C.S. ARAFANI"
+    },
+    {
+      "codigo_access": "738",
+      "nombre": "TORO TORO - C.S. JULO CHICO"
+    },
+    {
+      "codigo_access": "741",
+      "nombre": "TORO TORO - C.S. JULO GRANDE"
+    },
+    {
+      "codigo_access": "739",
+      "nombre": "TORO TORO - C.S. MOJON KASA"
+    },
+    {
+      "codigo_access": "740",
+      "nombre": "TORO TORO - C.S. PALLA PALLA"
+    },
+    {
+      "codigo_access": "742",
+      "nombre": "TORO TORO - C.S. TOLABAMBA"
+    },
+    {
+      "codigo_access": "743",
+      "nombre": "TORO TORO - P.S. QUEWAYLLANI"
+    },
+    {
+      "codigo_access": "748",
+      "nombre": "TOROTORO - C. S. TAMBO KASA"
+    },
+    {
+      "codigo_access": "744",
+      "nombre": "TOROTORO - C.S. AÑAHUANI"
+    },
+    {
+      "codigo_access": "749",
+      "nombre": "TOROTORO - C.S. CARASI"
+    },
+    {
+      "codigo_access": "745",
+      "nombre": "TOROTORO - C.S. PAMPAJASI"
+    },
+    {
+      "codigo_access": "750",
+      "nombre": "TOROTORO - C.S. POCOSUCO"
+    },
+    {
+      "codigo_access": "746",
+      "nombre": "TOROTORO - C.S. TOROTORO"
+    },
+    {
+      "codigo_access": "751",
+      "nombre": "TOROTORO - C.S. YAMBATA"
+    },
+    {
+      "codigo_access": "747",
+      "nombre": "TOROTORO - P.S. SUCUSAMA"
+    },
+    {
+      "codigo_access": "783",
+      "nombre": "TUPIZA - C.S. A. TUPIZA"
+    },
+    {
+      "codigo_access": "784",
+      "nombre": "TUPIZA - C.S. AMBULATORIO TUPIZA"
+    },
+    {
+      "codigo_access": "785",
+      "nombre": "TUPIZA - C.S. APOSTOL SANTIAGO"
+    },
+    {
+      "codigo_access": "786",
+      "nombre": "TUPIZA - C.S. CASA GRANDE"
+    },
+    {
+      "codigo_access": "754",
+      "nombre": "TUPIZA - C.S. CHUQUIAGO"
+    },
+    {
+      "codigo_access": "755",
+      "nombre": "TUPIZA - C.S. ESMORACA"
+    },
+    {
+      "codigo_access": "756",
+      "nombre": "TUPIZA - C.S. ESTARCA"
+    },
+    {
+      "codigo_access": "753",
+      "nombre": "TUPIZA - C.S. OPLOCA"
+    },
+    {
+      "codigo_access": "787",
+      "nombre": "TUPIZA - C.S. PALQUIZA"
+    },
+    {
+      "codigo_access": "788",
+      "nombre": "TUPIZA - C.S. REYNECILLAS"
+    },
+    {
+      "codigo_access": "757",
+      "nombre": "TUPIZA - C.S. RIO BLANCO"
+    },
+    {
+      "codigo_access": "758",
+      "nombre": "TUPIZA - C.S. SAN ANTONIO"
+    },
+    {
+      "codigo_access": "759",
+      "nombre": "TUPIZA - C.S. SAN GERARDO"
+    },
+    {
+      "codigo_access": "760",
+      "nombre": "TUPIZA - C.S. SUD"
+    },
+    {
+      "codigo_access": "779",
+      "nombre": "TUPIZA - C.S. SUIPACHA"
+    },
+    {
+      "codigo_access": "761",
+      "nombre": "TUPIZA - C.S. TALINA"
+    },
+    {
+      "codigo_access": "762",
+      "nombre": "TUPIZA - C.S. TUPIZA"
+    },
+    {
+      "codigo_access": "752",
+      "nombre": "TUPIZA - C.S. VILLA FATIMA"
+    },
+    {
+      "codigo_access": "790",
+      "nombre": "TUPIZA - C.S. VILLA PACHECO"
+    },
+    {
+      "codigo_access": "789",
+      "nombre": "TUPIZA - C.S. VILLA PACHECO"
+    },
+    {
+      "codigo_access": "763",
+      "nombre": "TUPIZA - HOSP. CIVIL TUPÌZA"
+    },
+    {
+      "codigo_access": "764",
+      "nombre": "TUPIZA - HOSP. EDUARDO EGUIA"
+    },
+    {
+      "codigo_access": "791",
+      "nombre": "TUPIZA - P. S. GUADALUPE"
+    },
+    {
+      "codigo_access": "792",
+      "nombre": "TUPIZA - P. S. MOLINO"
+    },
+    {
+      "codigo_access": "793",
+      "nombre": "TUPIZA - P. S. QUETENA GRANDE"
+    },
+    {
+      "codigo_access": "794",
+      "nombre": "TUPIZA - P. S. TAMBO"
+    },
+    {
+      "codigo_access": "795",
+      "nombre": "TUPIZA - P.S. SAN MIGUEL"
+    },
+    {
+      "codigo_access": "765",
+      "nombre": "TUPIZA - P.S. ALTO MAMAHOTA"
+    },
+    {
+      "codigo_access": "796",
+      "nombre": "TUPIZA - P.S. ATOCHA"
+    },
+    {
+      "codigo_access": "766",
+      "nombre": "TUPIZA - P.S. CHACOPAMPA"
+    },
+    {
+      "codigo_access": "767",
+      "nombre": "TUPIZA - P.S. HUMACHA"
+    },
+    {
+      "codigo_access": "797",
+      "nombre": "TUPIZA - P.S. KENCO"
+    },
+    {
+      "codigo_access": "768",
+      "nombre": "TUPIZA - P.S. NAZARENO"
+    },
+    {
+      "codigo_access": "769",
+      "nombre": "TUPIZA - P.S. OPLOCA"
+    },
+    {
+      "codigo_access": "770",
+      "nombre": "TUPIZA - P.S. ORO INGENIO"
+    },
+    {
+      "codigo_access": "771",
+      "nombre": "TUPIZA - P.S. PEÑA AMARILLA"
+    },
+    {
+      "codigo_access": "772",
+      "nombre": "TUPIZA - P.S. PIEDRAS BLANCAS"
+    },
+    {
+      "codigo_access": "780",
+      "nombre": "TUPIZA - P.S. QUIRIZA"
+    },
+    {
+      "codigo_access": "773",
+      "nombre": "TUPIZA - P.S. QUIRIZA"
+    },
+    {
+      "codigo_access": "774",
+      "nombre": "TUPIZA - P.S. REYNECILLAS"
+    },
+    {
+      "codigo_access": "798",
+      "nombre": "TUPIZA - P.S. RIO SECO"
+    },
+    {
+      "codigo_access": "782",
+      "nombre": "TUPIZA - P.S. S.J.PAMPA GRANDE"
+    },
+    {
+      "codigo_access": "775",
+      "nombre": "TUPIZA - P.S. SALO"
+    },
+    {
+      "codigo_access": "781",
+      "nombre": "TUPIZA - P.S. SAN PABLO"
+    },
+    {
+      "codigo_access": "799",
+      "nombre": "TUPIZA - P.S. SAN ROSA"
+    },
+    {
+      "codigo_access": "800",
+      "nombre": "TUPIZA - P.S. SANTA ISABEL"
+    },
+    {
+      "codigo_access": "776",
+      "nombre": "TUPIZA - P.S. SUPIRA"
+    },
+    {
+      "codigo_access": "801",
+      "nombre": "TUPIZA - P.S. TAMBO"
+    },
+    {
+      "codigo_access": "777",
+      "nombre": "TUPIZA - P.S. TAPAXA"
+    },
+    {
+      "codigo_access": "778",
+      "nombre": "TUPIZA - P.S. TOCLOCA"
+    },
+    {
+      "codigo_access": "802",
+      "nombre": "TUPIZA C.S. HUMACHA"
+    },
+    {
+      "codigo_access": "803",
+      "nombre": "TUPIZA C.S. POLULOS"
+    },
+    {
+      "codigo_access": "804",
+      "nombre": "TUPIZA C.S. TATASI"
+    },
+    {
+      "codigo_access": "805",
+      "nombre": "TUPIZA P. S. VISCACHANI"
+    },
+    {
+      "codigo_access": "806",
+      "nombre": "TUPIZA P.S. A. SANTIAGO"
+    },
+    {
+      "codigo_access": "807",
+      "nombre": "TUPIZA P.S. CIENEGA"
+    },
+    {
+      "codigo_access": "808",
+      "nombre": "TUPIZA P.S. MOLINO"
+    },
+    {
+      "codigo_access": "809",
+      "nombre": "TUPIZA P.S. PALQUIZA"
+    },
+    {
+      "codigo_access": "810",
+      "nombre": "TUPIZA P.S. QUETENA CHICO"
+    },
+    {
+      "codigo_access": "811",
+      "nombre": "TUPIZA P.S. SANTA ROSA"
+    },
+    {
+      "codigo_access": "812",
+      "nombre": "TUPIZA P.S. SUIPÁCHA"
+    },
+    {
+      "codigo_access": "813",
+      "nombre": "TUPIZA P.S. VISCACHANI"
+    },
+    {
+      "codigo_access": "814",
+      "nombre": "TUPIZA P.S. ZAPATERA"
+    },
+    {
+      "codigo_access": "815",
+      "nombre": "UNCIA - C.S. CHUQUIUTA"
+    },
+    {
+      "codigo_access": "816",
+      "nombre": "UNCIA - C.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "817",
+      "nombre": "UNCIA - HOSP. BUEN SAMARITANO"
+    },
+    {
+      "codigo_access": "818",
+      "nombre": "UNCIA - C.S. CALA CALA"
+    },
+    {
+      "codigo_access": "819",
+      "nombre": "UNCIA - C.S. HOSP. CIVIL UNCIA"
+    },
+    {
+      "codigo_access": "820",
+      "nombre": "UNCIA - C.S. LAGUNILLAS"
+    },
+    {
+      "codigo_access": "821",
+      "nombre": "UNCIA - C.S. MIRAFLORES"
+    },
+    {
+      "codigo_access": "822",
+      "nombre": "UNCIA - C.S. MOROCOMARCA"
+    },
+    {
+      "codigo_access": "823",
+      "nombre": "UNCIA - C.S. PATA PATA"
+    },
+    {
+      "codigo_access": "824",
+      "nombre": "UNCIA - C.S. UNCIA"
+    },
+    {
+      "codigo_access": "825",
+      "nombre": "UNCIA - P. S. TOPULLAR"
+    },
+    {
+      "codigo_access": "826",
+      "nombre": "UNCIA - P.S. MIRAFLORES"
+    },
+    {
+      "codigo_access": "827",
+      "nombre": "UNCIA - P.S. CHILLCA PALCA"
+    },
+    {
+      "codigo_access": "828",
+      "nombre": "UNCIA - P.S. PAYRUMANI"
+    },
+    {
+      "codigo_access": "829",
+      "nombre": "UNCIA - P.S. ZONA # 11"
+    },
+    {
+      "codigo_access": "830",
+      "nombre": "UNCIA . P.S.- MIRAFLORES"
+    },
+    {
+      "codigo_access": "831",
+      "nombre": "UNCIA P.S. LAGUNILLAS"
+    },
+    {
+      "codigo_access": "832",
+      "nombre": "UNCIA P.S. MERKAYMAYA"
+    },
+    {
+      "codigo_access": "833",
+      "nombre": "UNCIA P.S. PACOLLA PAMPA"
+    },
+    {
+      "codigo_access": "838",
+      "nombre": "UYUNI - C.S. AVAROA"
+    },
+    {
+      "codigo_access": "839",
+      "nombre": "UYUNI - C.S. COLCHANI"
+    },
+    {
+      "codigo_access": "837",
+      "nombre": "UYUNI - C.S. COROMA"
+    },
+    {
+      "codigo_access": "841",
+      "nombre": "UYUNI - C.S. D.J. VELASQUEZ"
+    },
+    {
+      "codigo_access": "847",
+      "nombre": "UYUNI - C.S. KELUYO ALTO ALIANZA"
+    },
+    {
+      "codigo_access": "840",
+      "nombre": "UYUNI - C.S. PETROLERO"
+    },
+    {
+      "codigo_access": "843",
+      "nombre": "UYUNI - C.S. PULACAYO"
+    },
+    {
+      "codigo_access": "836",
+      "nombre": "UYUNI - C.S. QUEHUA"
+    },
+    {
+      "codigo_access": "842",
+      "nombre": "UYUNI - C.S. QUIJARRO"
+    },
+    {
+      "codigo_access": "835",
+      "nombre": "UYUNI - C.S. RIO MULATO"
+    },
+    {
+      "codigo_access": "844",
+      "nombre": "UYUNI - C.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "845",
+      "nombre": "UYUNI - C.S. SEÑOR DE MAYO"
+    },
+    {
+      "codigo_access": "846",
+      "nombre": "UYUNI - C.S. UYUNI"
+    },
+    {
+      "codigo_access": "834",
+      "nombre": "UYUNI - HOSP. JOSE E. PEREZ"
+    },
+    {
+      "codigo_access": "850",
+      "nombre": "UYUNI - P.S. CERRO GORDO"
+    },
+    {
+      "codigo_access": "851",
+      "nombre": "UYUNI - P.S. CHACALA"
+    },
+    {
+      "codigo_access": "852",
+      "nombre": "UYUNI - P.S. KELUYO ALTO ALIANZA"
+    },
+    {
+      "codigo_access": "853",
+      "nombre": "UYUNI - P.S. TUSQUI"
+    },
+    {
+      "codigo_access": "848",
+      "nombre": "UYUNI - P.S. VILLA ESPERANZA"
+    },
+    {
+      "codigo_access": "854",
+      "nombre": "UYUNI C.S. SAN AGUSTIN"
+    },
+    {
+      "codigo_access": "855",
+      "nombre": "UYUNI C.S. ALPACANI"
+    },
+    {
+      "codigo_access": "856",
+      "nombre": "UYUNI C.S. CANDELARIA DE VILUYO"
+    },
+    {
+      "codigo_access": "858",
+      "nombre": "UYUNI C.S. CONS. V. PETROLERO"
+    },
+    {
+      "codigo_access": "857",
+      "nombre": "UYUNI C.S. SAN CRISTOBAL"
+    },
+    {
+      "codigo_access": "859",
+      "nombre": "UYUNI C.S. TODO SANTOS"
+    },
+    {
+      "codigo_access": "860",
+      "nombre": "UYUNI C.S. TRES CRUCES"
+    },
+    {
+      "codigo_access": "861",
+      "nombre": "UYUNI HOSP. SAN MARTIN DE PORRES"
+    },
+    {
+      "codigo_access": "862",
+      "nombre": "UYUNI P.S CERDAS"
+    },
+    {
+      "codigo_access": "863",
+      "nombre": "UYUNI P.S. ALPACANI"
+    },
+    {
+      "codigo_access": "864",
+      "nombre": "UYUNI P.S. BELLA VISTA"
+    },
+    {
+      "codigo_access": "865",
+      "nombre": "UYUNI P.S. KELUYO"
+    },
+    {
+      "codigo_access": "866",
+      "nombre": "UYUNI P.S. QUIJARRO"
+    },
+    {
+      "codigo_access": "867",
+      "nombre": "UYUNI P.S. ZONA CENTRAL"
+    },
+    {
+      "codigo_access": "868",
+      "nombre": "UYUNI- SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "869",
+      "nombre": "VILLAZON - C.S. SAN JUAN DE DIOS"
+    },
+    {
+      "codigo_access": "870",
+      "nombre": "VILLAZON - C.S. SAN JUDAS TADEO"
+    },
+    {
+      "codigo_access": "871",
+      "nombre": "VILLAZON - C.S. SAN MARTIN"
+    },
+    {
+      "codigo_access": "872",
+      "nombre": "VILLAZON - HOSP. ELIODORO VILLAZON"
+    },
+    {
+      "codigo_access": "873",
+      "nombre": "VILLAZON - HOSP. SAN ROQUE"
+    },
+    {
+      "codigo_access": "874",
+      "nombre": "VILLAZON - P.S. BERQUE"
+    },
+    {
+      "codigo_access": "875",
+      "nombre": "VILLAZON - P.S. CASIRA"
+    },
+    {
+      "codigo_access": "876",
+      "nombre": "VILLAZON - P.S. MOJO"
+    },
+    {
+      "codigo_access": "877",
+      "nombre": "VILLAZON - P.S. MORAYA"
+    },
+    {
+      "codigo_access": "878",
+      "nombre": "VILLAZON - P.S. VILLA CARMEN"
+    },
+    {
+      "codigo_access": "879",
+      "nombre": "VILLAZON - C.S. AMBULATORIO SAN MARTIN"
+    },
+    {
+      "codigo_access": "880",
+      "nombre": "VILLAZON - C.S. NIÑO JESUS DE NAZARETH"
+    },
+    {
+      "codigo_access": "881",
+      "nombre": "VILLAZON - C.S. NIÑO JESUS DE NAZARETH"
+    },
+    {
+      "codigo_access": "882",
+      "nombre": "VILLAZON - C.S. YURUMA"
+    },
+    {
+      "codigo_access": "883",
+      "nombre": "VILLAZON - P. S. ESQUILOMA"
+    },
+    {
+      "codigo_access": "884",
+      "nombre": "VILLAZON - P. S. SAGNASTY"
+    },
+    {
+      "codigo_access": "885",
+      "nombre": "VILLAZON - P. S. V. ROSARIO"
+    },
+    {
+      "codigo_access": "886",
+      "nombre": "VILLAZON - P.S. SELOCHA"
+    },
+    {
+      "codigo_access": "887",
+      "nombre": "VILLAZON - P.S. CHASCONTY"
+    },
+    {
+      "codigo_access": "888",
+      "nombre": "VILLAZON - P.S. HIGUERAS"
+    },
+    {
+      "codigo_access": "889",
+      "nombre": "VILLAZON - P.S. OJO DE AGUA"
+    },
+    {
+      "codigo_access": "890",
+      "nombre": "VILLAZON - P.S. SA ANTONIO"
+    },
+    {
+      "codigo_access": "891",
+      "nombre": "VILLAZON - P.S. SALITRE"
+    },
+    {
+      "codigo_access": "892",
+      "nombre": "VILLAZON - P.S. SELOCHA"
+    },
+    {
+      "codigo_access": "893",
+      "nombre": "VILLAZON - P.S. YURUMA"
+    },
+    {
+      "codigo_access": "894",
+      "nombre": "VILLAZON C.S CHIPIHUAYCO"
+    },
+    {
+      "codigo_access": "895",
+      "nombre": "VILLAZON C.S. CHAGUA"
+    },
+    {
+      "codigo_access": "896",
+      "nombre": "VILLAZON P.S. CHAGUA"
+    },
+    {
+      "codigo_access": "897",
+      "nombre": "VILLAZON P.S. CHOSCONTY"
+    },
+    {
+      "codigo_access": "898",
+      "nombre": "VILLAZON P.S. SOCOCHA"
+    },
+    {
+      "codigo_access": "899",
+      "nombre": "VITICHI - C.S. CALCHA"
+    },
+    {
+      "codigo_access": "900",
+      "nombre": "VITICHI - C.S. VITICHI"
+    },
+    {
+      "codigo_access": "901",
+      "nombre": "VITICHI - C.S. YAWISLA"
+    },
+    {
+      "codigo_access": "902",
+      "nombre": "VITICHI - HOSP. BUEN SAMARITANO"
+    },
+    {
+      "codigo_access": "903",
+      "nombre": "VITICHI - HOSP. S. VICENTE POOL"
+    },
+    {
+      "codigo_access": "904",
+      "nombre": "VITICHI - P.S. ARIPALCA"
+    },
+    {
+      "codigo_access": "905",
+      "nombre": "VITICHI - P.S. PECKA"
+    },
+    {
+      "codigo_access": "906",
+      "nombre": "VITICHI - P.S. PEKAJSI"
+    },
+    {
+      "codigo_access": "907",
+      "nombre": "VITICHI - P.S. SAN ANTONIO"
+    },
+    {
+      "codigo_access": "908",
+      "nombre": "VITICHI - P.S. TUSQUIÑA"
+    },
+    {
+      "codigo_access": "909",
+      "nombre": "VITICHI - P.S. YULO"
+    },
+    {
+      "codigo_access": "910",
+      "nombre": "VITICHI - P. S. ESTUMILLA"
+    },
+    {
+      "codigo_access": "911",
+      "nombre": "VITICHI - C.S. CALCHA"
+    },
+    {
+      "codigo_access": "912",
+      "nombre": "VITICHI - C.S. ESTUMILLA"
+    },
+    {
+      "codigo_access": "913",
+      "nombre": "VITICHI - C.S. SURMAJCHI"
+    },
+    {
+      "codigo_access": "914",
+      "nombre": "VITICHI - C.S. SURUMAJCHI"
+    },
+    {
+      "codigo_access": "915",
+      "nombre": "VITICHI - C.S. TUSQUIÑA"
+    },
+    {
+      "codigo_access": "916",
+      "nombre": "VITICHI - C.S. VITICHI"
+    },
+    {
+      "codigo_access": "917",
+      "nombre": "VITICHI - C.S. YAWISLA"
+    },
+    {
+      "codigo_access": "918",
+      "nombre": "VITICHI - HOSP. BUEN SAMARITANO"
+    },
+    {
+      "codigo_access": "919",
+      "nombre": "VITICHI - HOSP. SAN VICENTE POOL"
+    },
+    {
+      "codigo_access": "920",
+      "nombre": "VITICHI - P.S. ARIPALCA"
+    },
+    {
+      "codigo_access": "921",
+      "nombre": "VITICHI - P.S. AYOMA"
+    },
+    {
+      "codigo_access": "922",
+      "nombre": "VITICHI - P.S. AYOMA BAJA"
+    },
+    {
+      "codigo_access": "923",
+      "nombre": "VITICHI - P.S. AYOMA BAJA"
+    },
+    {
+      "codigo_access": "924",
+      "nombre": "VITICHI - P.S. CALVI"
+    },
+    {
+      "codigo_access": "932",
+      "nombre": "VITICHI - P.S. CAYSILLA"
+    },
+    {
+      "codigo_access": "925",
+      "nombre": "VITICHI - P.S. KEHUACA GRANDE"
+    },
+    {
+      "codigo_access": "933",
+      "nombre": "VITICHI - P.S. KEHUANCA GRANDE"
+    },
+    {
+      "codigo_access": "926",
+      "nombre": "VITICHI - P.S. PECKA"
+    },
+    {
+      "codigo_access": "927",
+      "nombre": "VITICHI - P.S. PEKAJSI"
+    },
+    {
+      "codigo_access": "928",
+      "nombre": "VITICHI - P.S. SAN ANTONIO"
+    },
+    {
+      "codigo_access": "934",
+      "nombre": "VITICHI - P.S. TOQUENZA"
+    },
+    {
+      "codigo_access": "929",
+      "nombre": "VITICHI - P.S. TOQUENZA"
+    },
+    {
+      "codigo_access": "930",
+      "nombre": "VITICHI - P.S. YULO"
+    },
+    {
+      "codigo_access": "935",
+      "nombre": "VITICHI - P.S. YURAC CAMARA"
+    },
+    {
+      "codigo_access": "931",
+      "nombre": "VITICHI - P.S. YURAC CANCHA"
+    },
+    {
+      "codigo_access": "941",
+      "nombre": "YOCALLA - C.S. BELEN PAMPA"
+    },
+    {
+      "codigo_access": "942",
+      "nombre": "YOCALLA - C.S. CAYARA"
+    },
+    {
+      "codigo_access": "943",
+      "nombre": "YOCALLA - C.S. MOLINO"
+    },
+    {
+      "codigo_access": "944",
+      "nombre": "YOCALLA - C.S. SAN ANTONIO"
+    },
+    {
+      "codigo_access": "945",
+      "nombre": "YOCALLA - C.S. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "955",
+      "nombre": "YOCALLA - C.S. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "947",
+      "nombre": "YOCALLA - C.S. TARQUI"
+    },
+    {
+      "codigo_access": "946",
+      "nombre": "YOCALLA - C.S. TOTORA D"
+    },
+    {
+      "codigo_access": "936",
+      "nombre": "YOCALLA - C.S. YOCALLA"
+    },
+    {
+      "codigo_access": "948",
+      "nombre": "YOCALLA - C.S. YOCALLA"
+    },
+    {
+      "codigo_access": "937",
+      "nombre": "YOCALLA - P.S. CAYARA"
+    },
+    {
+      "codigo_access": "938",
+      "nombre": "YOCALLA - P.S. CHIRACORO"
+    },
+    {
+      "codigo_access": "949",
+      "nombre": "YOCALLA - P.S. CHIRACORO"
+    },
+    {
+      "codigo_access": "950",
+      "nombre": "YOCALLA - P.S. PIQUIRA"
+    },
+    {
+      "codigo_access": "951",
+      "nombre": "YOCALLA - P.S. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "939",
+      "nombre": "YOCALLA - P.S. TOTORA D"
+    },
+    {
+      "codigo_access": "952",
+      "nombre": "YOCALLA - P.S. TOTORA PAMPA"
+    },
+    {
+      "codigo_access": "953",
+      "nombre": "YOCALLA - P.S. TURQUI"
+    },
+    {
+      "codigo_access": "954",
+      "nombre": "YOCALLA - P.S. YURAC CKASA"
+    },
+    {
+      "codigo_access": "956",
+      "nombre": "YOCALLA - PS. SANTA BARBARA"
+    },
+    {
+      "codigo_access": "670",
+      "nombre": "YURA - C.S. PUNUTUMA"
+    },
+    {
+      "codigo_access": "718",
+      "nombre": "YURA - C.S. TAURO"
+    },
+    {
+      "codigo_access": "723",
+      "nombre": "YURA - C.S. YURA"
+    },
+    {
+      "codigo_access": "962",
+      "nombre": "YURA - P.S. KORKA"
+    },
+    {
+      "codigo_access": "728",
+      "nombre": "YURA - P.S. PAJCHA"
+    },
+    {
+      "codigo_access": "729",
+      "nombre": "YURA.- C.S - PELCA"
+    },
+    {
+      "codigo_access": "717",
+      "nombre": "YURA.-C.S. TATUCA"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "services": [
+    {
+      "access_code": "1",
+      "name": "GINECOLOGIA"
+    },
+    {
+      "access_code": "10",
+      "name": "OBSTETRICIA"
+    },
+    {
+      "access_code": "11",
+      "name": "TRAUMATOLOGIA"
+    },
+    {
+      "access_code": "12",
+      "name": "NEUMOLOGIA"
+    },
+    {
+      "access_code": "13",
+      "name": "MEDICINA INTERNA"
+    },
+    {
+      "access_code": "14",
+      "name": "EMERGENCIA"
+    },
+    {
+      "access_code": "15",
+      "name": "CIRUGIA"
+    },
+    {
+      "access_code": "17",
+      "name": "PEDIATRIA"
+    },
+    {
+      "access_code": "18",
+      "name": "NEONATOLOGIA"
+    },
+    {
+      "access_code": "19",
+      "name": "U.T.I."
+    },
+    {
+      "access_code": "2",
+      "name": "UROLOGIA"
+    },
+    {
+      "access_code": "20",
+      "name": "NEUROLOGIA"
+    },
+    {
+      "access_code": "21",
+      "name": "NEUROCIRUGIA"
+    },
+    {
+      "access_code": "22",
+      "name": "PSIQUIATRIA"
+    },
+    {
+      "access_code": "23",
+      "name": "ENDOSCOPIA"
+    },
+    {
+      "access_code": "24",
+      "name": "DERMATOLOGIA"
+    },
+    {
+      "access_code": "25",
+      "name": "OFTALMOLOGIA"
+    },
+    {
+      "access_code": "26",
+      "name": "ODONTOLOGIA"
+    },
+    {
+      "access_code": "27",
+      "name": "OTORRINOLARINGOLOGIA"
+    },
+    {
+      "access_code": "3",
+      "name": "PARTICULAR"
+    },
+    {
+      "access_code": "4",
+      "name": "HEMODIALISIS"
+    },
+    {
+      "access_code": "41",
+      "name": "MAXILOFACIAL"
+    },
+    {
+      "access_code": "42",
+      "name": "INFECTOLOGIA"
+    },
+    {
+      "access_code": "5",
+      "name": "ENDOCRINOLOGIA"
+    },
+    {
+      "access_code": "6",
+      "name": "ONCOLOGIA"
+    },
+    {
+      "access_code": "7",
+      "name": "GENETICA"
+    },
+    {
+      "access_code": "8",
+      "name": "REUMATOLOGIA"
+    },
+    {
+      "access_code": "9",
+      "name": "CARDIOLOGIA"
+    }
+  ],
+  "physicians": [
+    {
+      "access_code": "1",
+      "name": "BETZABE ORTEGA"
+    },
+    {
+      "access_code": "10",
+      "name": "DULFREDO PINTO"
+    },
+    {
+      "access_code": "11",
+      "name": "FRANCISCO DELGADILLO"
+    },
+    {
+      "access_code": "12",
+      "name": "HERNAN CAMARGO"
+    },
+    {
+      "access_code": "13",
+      "name": "JOSE CALLE"
+    },
+    {
+      "access_code": "14",
+      "name": "NINGUNO"
+    },
+    {
+      "access_code": "15",
+      "name": "NORMA OLIVARES"
+    },
+    {
+      "access_code": "16",
+      "name": "ROY HUMEREZ"
+    },
+    {
+      "access_code": "17",
+      "name": "VICTOR FERNANDEZ"
+    },
+    {
+      "access_code": "18",
+      "name": "VICTOR LEON"
+    },
+    {
+      "access_code": "19",
+      "name": "FRANCISCO TIRADO"
+    },
+    {
+      "access_code": "2",
+      "name": "FRANCISCO GARABITO"
+    },
+    {
+      "access_code": "20",
+      "name": "HUMBERTO BRACAMONTE"
+    },
+    {
+      "access_code": "21",
+      "name": "MAURO ARCE"
+    },
+    {
+      "access_code": "22",
+      "name": "NELSON GUTIERREZ"
+    },
+    {
+      "access_code": "23",
+      "name": "RICARDO QUISBERTH"
+    },
+    {
+      "access_code": "24",
+      "name": "WALTER SALINAS"
+    },
+    {
+      "access_code": "25",
+      "name": "GONZALO BURGOS"
+    },
+    {
+      "access_code": "26",
+      "name": "HERNAN VENEGAS"
+    },
+    {
+      "access_code": "27",
+      "name": "JULIO VARGAS"
+    },
+    {
+      "access_code": "28",
+      "name": "ORLANDO MICHEL"
+    },
+    {
+      "access_code": "29",
+      "name": "MARIA ELENA IPORRE"
+    },
+    {
+      "access_code": "3",
+      "name": "ALFREDO CHOQUE"
+    },
+    {
+      "access_code": "30",
+      "name": "CARLOS MENDIZABAL"
+    },
+    {
+      "access_code": "31",
+      "name": "DIEGO CANAVIRI"
+    },
+    {
+      "access_code": "32",
+      "name": "JOSE CARO"
+    },
+    {
+      "access_code": "33",
+      "name": "MARIO VERA"
+    },
+    {
+      "access_code": "34",
+      "name": "RAUL FLORES"
+    },
+    {
+      "access_code": "35",
+      "name": "SERGIO GUTIERREZ"
+    },
+    {
+      "access_code": "37",
+      "name": "HUGO SECKO"
+    },
+    {
+      "access_code": "38",
+      "name": "ARTURO GOYTIA"
+    },
+    {
+      "access_code": "39",
+      "name": "ALBERTO FLORES"
+    },
+    {
+      "access_code": "4",
+      "name": "ANA JANCKO"
+    },
+    {
+      "access_code": "40",
+      "name": "BETTY ARISMENDI"
+    },
+    {
+      "access_code": "41",
+      "name": "CONSUELO MURILLO"
+    },
+    {
+      "access_code": "42",
+      "name": "CINTHIA RUIZ"
+    },
+    {
+      "access_code": "43",
+      "name": "CARLOS ARANDO"
+    },
+    {
+      "access_code": "44",
+      "name": "GROVER CORTEZ"
+    },
+    {
+      "access_code": "45",
+      "name": "JORGE BARRIGA"
+    },
+    {
+      "access_code": "46",
+      "name": "JULIO AGREDA"
+    },
+    {
+      "access_code": "47",
+      "name": "WENDDY CHOQUE"
+    },
+    {
+      "access_code": "49",
+      "name": "WILMA QUIROZ"
+    },
+    {
+      "access_code": "5",
+      "name": "RAUL VELASQUEZ"
+    },
+    {
+      "access_code": "50",
+      "name": "GONZALO MACHICADO"
+    },
+    {
+      "access_code": "51",
+      "name": "NOEMI ALIAGA"
+    },
+    {
+      "access_code": "52",
+      "name": "WALTER OLIVAREZ"
+    },
+    {
+      "access_code": "53",
+      "name": "JHONNY ESTRADA"
+    },
+    {
+      "access_code": "54",
+      "name": "TERESA TIRADO"
+    },
+    {
+      "access_code": "56",
+      "name": "FILEMON VIEZAGA"
+    },
+    {
+      "access_code": "57",
+      "name": "ROGER HERRERA"
+    },
+    {
+      "access_code": "59",
+      "name": "VLADIMIR PALMA"
+    },
+    {
+      "access_code": "6",
+      "name": "IVES GUERRERO"
+    },
+    {
+      "access_code": "60",
+      "name": "IVAN ZELAYA OPORTO"
+    },
+    {
+      "access_code": "61",
+      "name": "DR. BELLIDO"
+    },
+    {
+      "access_code": "62",
+      "name": "JAMIL BUSTAMANTE"
+    },
+    {
+      "access_code": "63",
+      "name": "ALICIA CUEVAS"
+    },
+    {
+      "access_code": "64",
+      "name": "LIZBETH SUNAGUA"
+    },
+    {
+      "access_code": "65",
+      "name": "FABIO SOLANO"
+    },
+    {
+      "access_code": "66",
+      "name": "MARLENE FUERTES"
+    },
+    {
+      "access_code": "67",
+      "name": "FABIOLA ROMERO"
+    },
+    {
+      "access_code": "68",
+      "name": "RAMIRO ARANDO"
+    },
+    {
+      "access_code": "69",
+      "name": "EVELYN CONDORI"
+    },
+    {
+      "access_code": "7",
+      "name": "WILSON CHOQUE"
+    },
+    {
+      "access_code": "70",
+      "name": "NARDA CORONADO"
+    }
+  ],
+  "samples": [
+    "LIQUIDO PLEURAL",
+    "LIQUIDO ASCITICO",
+    "LIQUIDO PERICARDICO",
+    "LIQUIDO CEFALORRAQUIDEO",
+    "LIQUIDO INTRAQUISTICO",
+    "LIQUIDO OVARICO",
+    "CITOLOGIA SERIADA DE ESPUTO",
+    "LAVADO BRONQUIAL",
+    "SECRECION MAMARIA",
+    "P.A.A.F. DE MAMA",
+    "P.A.A.F. DE TIROIDES",
+    "P.A.A.F. DE PULMON",
+    "P.A.A.F. DE PARTES BLANDAS",
+    "CITOLOGIA DE ORINA",
+    "RASPADO CUTANEO",
+    "OTROS"
+  ]
+}

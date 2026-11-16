@@ -1,3 +1,22 @@
+# Sistema de Patología del Hospital Daniel Bracamonte
+
+Aplicación web para pacientes, solicitudes y muestras, resultados, informes citológicos y anatomopatológicos, reportes y acceso por roles.
+
+Esta actualización incorpora la versión actual del proyecto con Laravel 12 y PHP 8.3.36. La instalación de referencia utiliza PostgreSQL.
+
+## Revisión técnica e instalación
+
+- Código de la aplicación: `app/`, `routes/`, `resources/` y `public/`.
+- Estructura de la base de datos: `database/migrations/`.
+- Pruebas automatizadas: `tests/` y `phpunit.xml`.
+- Instalación, configuración del administrador y servidor: [guía de entrega](documentacion/ENTREGA_Y_SERVIDOR.md).
+
+El repositorio excluye credenciales, bases de datos clínicas, respaldos, sesiones, registros de ejecución y documentos personales. La configuración se realiza mediante un archivo `.env` privado a partir de `.env.example`. Una instalación de demostración debe utilizar una base nueva con datos ficticios.
+
+El enlace de GitHub permite revisar y descargar el código. Para ejecutar el sistema en línea se requiere un servidor compatible y una base de datos configurada.
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -6,6 +25,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+## Versión de PHP del sistema de Patología
+
+El proyecto requiere PHP **8.3.36**. `composer.json` fija esta versión tanto en
+`require.php` como en `config.platform.php`, y `composer.lock` conserva la
+plataforma usada para resolver las dependencias.
+
+Compruebe la instalación real con `php -v` y `composer check-platform-reqs`.
+La opción `config.platform.php` no instala PHP: Apache, las tareas programadas
+y los procesos de cola deben utilizar también PHP 8.3.36. En la instalación
+local, la consola y la configuración de Apache apuntan a `C:/xampp/php`.
+Después de cambiar los binarios PHP, reinicie los procesos que los utilizan.
+
+## Entrega del sistema y conservación de datos
+
+Consulte [la guía de entrega y servidor](documentacion/ENTREGA_Y_SERVIDOR.md)
+para la numeración anual, GitHub, traslado de PostgreSQL, respaldos y recuperación.
+Antes de publicar, ejecute `php tools/check_github_files.php` y revise los archivos.
 
 ## About Laravel
 
@@ -23,31 +60,24 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
+- **[Vehikl](https://vehikl.com)**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
 ## Contributing
 

@@ -1,0 +1,170 @@
+/* Shared screen layout; loaded after module styles so breakpoints remain consistent. */
+@media screen {
+    .app-container { height: 100dvh; }
+    .dashboard-main { min-width: 0; max-width: 100%; height: 100%; }
+    .page-scroll { min-width: 0; overscroll-behavior: contain; }
+    .page-scroll :is(form, fieldset, label, .sol-card, .history-panel, .dash-card, .cfg-field) { min-width: 0; }
+    .page-scroll :is(input, select, textarea) { max-width: 100%; min-width: 0; }
+    .page-scroll :is(.table-responsive, .table-wrap, .results-table-wrap, .cfg-table-wrap) { max-width: 100%; overflow-x: auto; }
+    .sidebar { height: 100dvh; overflow-y: auto; overscroll-behavior: contain; }
+    .sidebar-menu { flex-shrink: 0; }
+    .page-scroll :is(.patient-heading, .request-top, .sol-modern-header, .access-page-head, .dash-head) { gap: 12px; flex-wrap: wrap; }
+    .page-scroll :is(.patient-heading h2, .request-data, .patient-row strong, .request-data-grid b) { overflow-wrap: anywhere; }
+}
+
+@media screen and (max-width: 1200px) {
+    .page-scroll .sol-main { grid-template-columns: minmax(0, 1fr); grid-template-areas: "modules" "search" "patient" "form"; }
+    .page-scroll :is(.cy-workspace, .ap-page, .dash-page) { height: auto; min-height: 100%; overflow: visible; }
+    .page-scroll .history-quick { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll :is(.top-grid, .sample-grid, .identity, .clinical, .inherited) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .page-scroll :is(.cy-card, .ap-card) { flex: auto; }
+    .page-scroll .cy-form { overflow: visible; }
+    .page-scroll .report-form .report-grid { grid-template-rows: auto; overflow: visible; }
+    .page-scroll .report-grid label:not(:first-child) textarea { height: auto; min-height: 150px; resize: vertical; }
+}
+
+@media screen and (max-width: 1024px) {
+    html, body { height: 100%; overflow: hidden; }
+    .app-container { min-height: 0; height: 100dvh; flex-direction: row; overflow: hidden; }
+    .dashboard-main { width: 100%; height: 100%; overflow: hidden; }
+    .page-scroll { overflow: auto; }
+    .global-topbar { min-height: 60px; padding: 8px 12px; gap: 8px; }
+    .topbar-context { min-width: 0; }
+    .topbar-mobile-menu { display: grid; min-height: 44px; }
+    .topbar-user-copy { display: none; }
+    .sidebar, .sidebar-collapsed .sidebar {
+        position: fixed; inset: 0 auto 0 0; z-index: 100;
+        width: min(300px, 85vw); min-width: 0; height: 100dvh;
+        padding: 18px 14px; transform: translateX(-110%);
+        transition: transform .2s ease; visibility: hidden;
+    }
+    .sidebar-mobile-open .sidebar { transform: translateX(0); visibility: visible; }
+    .sidebar-mobile-open .sidebar-overlay { display: block; }
+    .sidebar .sidebar-menu { display: flex; flex-direction: column; gap: 9px; margin-top: 10px; overflow: visible; }
+    .sidebar .sidebar-btn { flex: 0 0 auto; width: 100%; min-width: 0; min-height: 48px; justify-content: flex-start; gap: 12px; padding: 11px 12px; }
+    .sidebar .sidebar-btn .sidebar-label { display: inline; white-space: normal; }
+    .sidebar .sidebar-icon { width: 24px; min-width: 24px; }
+    .sidebar .sidebar-logo { display: flex; width: 122px; height: 76px; flex-basis: 76px; }
+    .sidebar .sidebar-title { display: block; margin-bottom: 12px; }
+    .sidebar .sidebar-section-label { display: block; }
+    .sidebar .sidebar-gear { position: static; transform: none; display: flex; flex-shrink: 0; margin-top: 18px; }
+    .sidebar .sidebar-gear:hover { transform: scale(1.04); }
+    .sidebar-toggle { display: none; }
+    .site-footer { gap: 8px; padding: 8px 12px; flex-wrap: wrap; }
+    .site-footer-meta { display: none; }
+    .page-scroll .sol-modern-wrapper { min-height: 0; }
+    .page-scroll :is(.dash-grid, .history-layout) { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll .dash-grid { flex: auto; }
+    .page-scroll .dash-card { height: auto; }
+    .page-scroll .bar-chart { height: 200px; }
+    .page-scroll .status-groups { height: auto; }
+    .page-scroll .cfg-page { height: auto; min-height: 100%; overflow: visible; padding: 12px; }
+    .page-scroll .cfg-section.active { flex: auto; overflow: visible; }
+    .page-scroll :is(.request-detail-head, .request-detail-title, .request-detail-actions) { flex-wrap: wrap; gap: 10px; }
+    .page-scroll .request-detail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .page-scroll :is(.cy-actions, .ap-actions, .access-actions) { flex-wrap: wrap; position: static; overflow: visible; }
+    .page-scroll :is(.record-bar, .ap-record) { flex-wrap: wrap; }
+    .page-scroll :is(.record-bar, .ap-record) form { width: 100%; margin-left: 0; }
+    .page-scroll :is(.record-bar, .ap-record) input { width: 0; flex: 1; }
+}
+
+@media screen and (max-width: 600px) {
+    .topbar-breadcrumb, .global-topbar-user, .global-search-trigger kbd { display: none; }
+    .global-logout { width: 44px; min-height: 44px; padding: 0; font-size: 0; justify-content: center; }
+    .global-logout span { font-size: 20px; }
+    .topbar-icon-button { min-height: 44px; }
+    .page-scroll :is(.cy-workspace, .ap-page, .history-page, .access-results-page) { padding: 10px; width: 100%; }
+    .page-scroll :is(.module-selector, .sol-form-grid-2, .sol-form-grid-3, .top-grid, .two-grid, .sample-grid, .identity, .clinical, .inherited, .ap-results, .cfg-form, .cfg-edit-form, .request-data, .request-data.three) { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll :is(.identity .patient, .identity .doctor, .top-grid .patient, .cfg-field.wide, .cfg-field.full) { grid-column: 1 / -1; }
+    .page-scroll .metric-grid { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll :is(.cy-header, .ap-header, .cy-form-head, .ap-title, .window-title, .cfg-section-head) { flex-wrap: wrap; gap: 8px; }
+    .page-scroll :is(.sol-search-row, .sol-actions, .patient-summary-grid, .history-search) { flex-wrap: wrap; gap: 8px; }
+    .page-scroll :is(.sol-search-row input, .history-search input) { flex: 1 1 160px; width: 100%; }
+    .page-scroll :is(.cy-actions, .ap-actions, .access-actions) > :is(button, a) { flex: 1 1 130px; white-space: normal; min-height: 44px; padding: 8px 12px; }
+    .page-scroll :is(input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]), select, textarea) { font-size: 16px; }
+    .page-scroll :is(input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]), select) { min-height: 44px; }
+    .page-scroll .select2-search { height: 44px !important; }
+    .page-scroll .history-tabs { flex-wrap: wrap; }
+    .page-scroll .history-tabs button { flex: 1 1 150px; white-space: normal; }
+    .page-scroll .cy-tabs { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll .cy-tab { padding: 10px 12px; }
+    .page-scroll .request-detail-grid { grid-template-columns: minmax(0, 1fr); }
+    .page-scroll .request-detail-grid .wide { grid-column: auto; }
+    .page-scroll .request-sample-row { grid-template-columns: 34px minmax(0, 1fr); }
+    .page-scroll .request-detail-grid strong { overflow-wrap: anywhere; }
+    .page-scroll :is(.cfg-form, .cy-grid, .ap-grid, .ap-results) { padding: 12px; }
+    .page-scroll .sol-modal-dialog { width: calc(100% - 20px); max-height: calc(100dvh - 20px); overflow-y: auto; }
+    .site-footer-institution { min-width: 0; font-size: 10px; }
+    .command-palette-dialog { max-height: calc(100dvh - 40px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sidebar { transition: none; }
+    .navigation-progress { animation: none; transition: none; }
+    html { scroll-behavior: auto; }
+}
+
+/* Elementos comunes de acceso y presentación institucional. */
+/* Citología usa un solo desplazamiento de página para no ocultar campos detrás de las acciones. */
+@media screen {
+ .page-scroll .cy-workspace { height:auto; min-height:100%; overflow:visible; }
+ .page-scroll .cy-card { flex:1 0 auto; min-height:auto; overflow:visible; }
+ .page-scroll .cy-form { flex:1 0 auto; min-height:auto; overflow:visible; scrollbar-gutter:auto; }
+ .page-scroll .cy-actions { position:static; flex-wrap:wrap; box-shadow:none; }
+ .page-scroll .cy-card { border-radius:15px; }
+ .page-scroll .cy-form-head { border-radius:15px 15px 0 0; }
+ .page-scroll .record-bar { border-radius:0 0 15px 15px; }
+}
+@media screen and (min-width:1201px) {
+ .page-scroll .cy-workspace { padding:10px 18px; }
+ .cy-workspace .cy-header { margin-bottom:8px; }
+ .page-scroll .cy-workspace .cy-search-panel { padding:10px 16px; margin-bottom:10px; gap:16px; }
+ .cy-workspace .cy-search-form input { height:36px; }
+ .cy-workspace .cy-grid { padding:6px 18px; gap:5px 12px; }
+ .cy-workspace .cy-grid :is(input,select) { height:32px; }
+ .cy-workspace .cy-grid .select2-search { height:32px !important; }
+ .cy-workspace .cy-form:not(.report-form) .cy-grid textarea { min-height:40px; }
+ .cy-workspace .cy-actions { min-height:44px; padding:6px 12px; }
+}
+.cy-workspace .cy-search-panel { display:flex; align-items:center; justify-content:space-between; gap:20px; flex:0 0 auto; padding:16px 20px; margin-bottom:16px; border:1px solid #dce6e0; border-radius:12px; background:#fff; box-shadow:0 4px 20px #163e2610; }
+.cy-search-copy h2 { margin:0; font-size:15px; color:#244538; }
+.cy-search-copy p { margin:4px 0 0; color:#65776e; font-size:12px; }
+.cy-search-form { display:flex; gap:8px; flex:0 1 540px; min-width:0; }
+.cy-search-form input { width:100%; min-width:0; height:42px; padding:0 12px; border:1px solid #cadbd1; border-radius:8px; background:#fff; color:#233e31; font-size:13px; text-transform:uppercase; }
+.cy-search-form button { border:0; border-radius:8px; padding:0 20px; background:#16844e; color:#fff; font-weight:600; cursor:pointer; }
+.cy-search-form :is(input,button):focus-visible { outline:2px solid #16844e; outline-offset:3px; }
+html[data-theme="dark"] .cy-search-panel { background:#182327; border-color:#405159; box-shadow:none; }
+html[data-theme="dark"] .cy-search-copy h2 { color:#eef8f3; }
+html[data-theme="dark"] .cy-search-copy p { color:#b9ccc3; }
+html[data-theme="dark"] .cy-search-form input { background:#111c20; border-color:#4b6068; color:#f5faf8; }
+@media(max-width:900px) {
+ .cy-workspace .cy-search-panel { align-items:stretch; flex-direction:column; gap:12px; padding:16px; }
+ .cy-search-form { flex:auto; width:100%; }
+}
+html[data-theme="dark"] .cy-workspace .date-input {
+    color-scheme: dark;
+}
+html[data-theme="dark"] .cy-workspace .date-input::-webkit-calendar-picker-indicator {
+    background-color: transparent !important;
+    filter: none;
+    opacity: .85;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+html[data-theme="dark"] .cy-workspace .date-input::-webkit-calendar-picker-indicator:hover {
+    background-color: #315044 !important;
+    opacity: 1;
+}
+.skip-to-content {
+    position: fixed; top: 8px; left: 12px; z-index: 10000;
+    padding: 12px 18px; border-radius: 8px; background: #fff; color: #17613e;
+    font-weight: 700; transform: translateY(-150%);
+}
+.skip-to-content:focus { transform: translateY(0); outline: 3px solid #168958; }
+:is(.global-topbar, .site-footer) :is(a, button):focus-visible {
+    outline: 3px solid #168958; outline-offset: 3px;
+}
+@media print {
+    .skip-to-content, .sidebar-overlay, .navigation-progress { display: none !important; }
+}

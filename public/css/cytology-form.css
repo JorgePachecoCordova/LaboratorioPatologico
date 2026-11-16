@@ -1,0 +1,75 @@
+/* Formulario de citología: estilos limitados a su espacio de trabajo. */
+.cy-workspace .ui-field-caption { display:inline-flex; align-items:center; gap:8px; min-width:0; }
+.cy-workspace .ui-field-caption .ui-icon { width:18px; height:18px; flex:none; color:#16804d; }
+.cy-workspace .cy-btn .ui-icon { width:17px; height:17px; flex:none; }
+html[data-theme="dark"] .cy-workspace .ui-field-caption .ui-icon { color:#8de1b3; }
+.cy-workspace { padding:22px; gap:14px; height:auto; min-height:100%; }
+.cy-workspace .cy-header { margin:0; gap:16px; padding:0 2px; }
+.cy-workspace .cy-header h1 { font-size:28px; line-height:1.2; font-weight:650; }
+.cy-workspace .cy-header p { margin-top:6px; font-size:13px; }
+.cy-workspace .cy-header-actions { display:flex; align-items:center; gap:10px; }
+.cy-workspace #open-cytology-reports {
+    min-height:52px;
+    min-width:166px;
+    padding:0 24px;
+    gap:10px;
+    border:1px solid #184a79;
+    border-radius:10px;
+    background:#205b90;
+    color:#fff;
+    font-size:15px;
+    font-weight:700;
+    box-shadow:0 3px 8px rgba(22,65,105,.18);
+}
+.cy-workspace #open-cytology-reports .ui-icon { width:22px; height:22px; }
+.cy-workspace #open-cytology-reports:hover { background:#184a79; box-shadow:0 4px 10px rgba(22,65,105,.24); }
+.cy-workspace #open-cytology-reports:focus-visible { outline:3px solid #78ade0; outline-offset:3px; }
+html[data-theme="dark"] .cy-workspace #open-cytology-reports { background:#28689f; border-color:#73a6d0; }
+.cy-workspace .cy-btn { min-height:40px; font-size:13px; font-weight:600; padding:9px 16px; gap:8px; }
+.cy-workspace .cy-patient-search { padding:18px 22px; margin:0; box-shadow:none; }
+.cy-workspace .cy-patient-search .cy-search-copy p { font-size:13px; }
+.cy-workspace .cy-patient-search .cy-search-form input { height:42px; font-size:14px; }
+.cy-workspace .cy-patient-search .cy-search-form button { height:42px; font-size:13px; }
+.cy-workspace .cy-card { flex:none; min-height:0; overflow:visible; border-radius:12px; box-shadow:0 3px 12px #173b2408; }
+.cy-workspace .cy-card[hidden] { display:none; }
+.cy-workspace .cy-form { min-height:0; }
+.cy-workspace .cy-form-head { padding:16px 22px; border-radius:12px 12px 0 0; border-bottom:1px solid #dce8e0; align-items:center; gap:16px; font-size:13px; }
+.cy-workspace .cy-form-head strong { font-weight:650; letter-spacing:.4px; }
+.cy-workspace .cy-form-head span { font-size:12px; font-weight:500; }
+.cy-workspace .cy-new-patient { padding:22px; background:transparent; }
+.cy-workspace .cy-new-patient h2 { margin:0 0 20px; font-size:16px; font-weight:650; }
+.cy-workspace .cy-patient-fields { display:grid; grid-template-columns:repeat(12,minmax(0,1fr)); gap:20px 22px; }
+.cy-workspace .cy-patient-fields > label { position:relative; display:flex; flex-direction:column; grid-column:span 6; gap:8px; margin:0; padding:0; min-width:0; font-size:13px; line-height:1.4; font-weight:500; }
+.cy-workspace .cy-patient-fields > label:first-child { grid-column:span 6; }
+.cy-workspace .cy-patient-fields > label:has([name="patient_age"]) { grid-column:span 2; }
+.cy-workspace .cy-patient-fields > label:has([name="request_date"]) { grid-column:span 4; }
+.cy-workspace .cy-patient-fields > label:has([name="sample_type_other"]) { grid-column:span 6; }
+.cy-workspace .cy-patient-fields .cy-field-caption { display:flex; justify-content:space-between; align-items:center; min-height:26px; gap:10px; }
+.cy-workspace .cy-patient-fields :is(input,select,textarea) { box-sizing:border-box; width:100%; min-width:0; margin:0; border:1px solid #cbdcd2; border-radius:8px; background:#fff; color:#243e30; font:14px/1.5 'Segoe UI',Arial,sans-serif; padding:10px 12px; }
+.cy-workspace .cy-patient-fields :is(input,select) { height:42px; min-height:42px; }
+.cy-workspace .cy-patient-fields textarea { min-height:88px; resize:vertical; }
+.cy-workspace .cy-patient-fields .cy-catalog-add { position:static; float:none; display:inline-flex; flex:none; align-items:center; justify-content:center; width:auto; height:26px; min-height:26px; margin:0; border:1px solid #cce4d6; border-radius:6px; background:#f0f8f3; color:#147348; padding:3px 9px; font:600 11px/1.2 'Segoe UI',Arial,sans-serif; cursor:pointer; }
+.cy-workspace .cy-patient-fields .cy-catalog-add:hover { background:#e2f2e8; border-color:#84b69a; }
+.cy-workspace :is(input,select,textarea):focus-visible { outline:2px solid #16835566; outline-offset:2px; border-color:#168355; }
+.cy-workspace .report-form .report-grid { flex:none; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:start; gap:20px 22px; padding:22px; border-top:1px solid #e0e9e4; border-bottom:0; }
+.cy-workspace .report-form .report-grid > label { display:flex; flex-direction:column; width:auto; gap:8px; font-size:13px; font-weight:600; align-self:stretch; }
+.cy-workspace .report-form .report-grid > label.description { grid-column:1/-1; }
+.cy-workspace .report-form .report-grid textarea { flex:none; margin:0; height:auto; min-height:120px; border-radius:8px; padding:12px; font:14px/1.6 'Segoe UI',Arial,sans-serif; }
+.cy-workspace .report-form .report-grid > label.description textarea { min-height:160px; }
+.cy-workspace .report-form .report-grid > label:last-child textarea { min-height:120px; }
+.cy-workspace .report-form .cy-actions { position:static; justify-content:flex-end; padding:16px 22px; gap:10px; border-top:1px solid #dce8e0; background:#f7faf8; border-radius:0 0 12px 12px; }
+.cy-workspace .inherited { grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; padding:20px 22px; }
+.cy-workspace .inherited small { font-size:11px; }.cy-workspace .inherited strong { font-size:13px; overflow-wrap:anywhere; }
+html[data-theme="dark"] .cy-workspace .cy-new-patient { background:transparent; }
+html[data-theme="dark"] .cy-workspace .cy-patient-fields :is(input,select,textarea) { background:#172125; color:#edf5f0; border-color:#496052; }
+html[data-theme="dark"] .cy-workspace .cy-field-caption { color:#dceee3; }
+html[data-theme="dark"] .cy-workspace .cy-patient-fields .cy-catalog-add { background:#203e32; color:#9de7bd; border-color:#4c755f; }
+html[data-theme="dark"] .cy-workspace .report-form .report-grid,html[data-theme="dark"] .cy-workspace .cy-form-head { border-color:#40564a; }
+html[data-theme="dark"] .cy-workspace .report-form .cy-actions { background:#203129; border-color:#40564a; }
+@media(max-width:1100px) { .cy-workspace .cy-patient-fields > label:first-child { grid-column:span 8; }.cy-workspace .cy-patient-fields > label:has([name="patient_age"]) { grid-column:span 4; }.cy-workspace .cy-patient-fields > label:has([name="request_date"]) { grid-column:span 6; } }
+@media(max-width:760px) { .cy-workspace { padding:14px; }.cy-workspace .cy-header { align-items:flex-start; flex-wrap:wrap; }.cy-workspace .cy-header p { display:block; }.cy-workspace .cy-new-patient,.cy-workspace .report-form .report-grid { padding:18px; }.cy-workspace .cy-patient-fields { grid-template-columns:minmax(0,1fr); gap:16px; }.cy-workspace .cy-patient-fields > label,.cy-workspace .cy-patient-fields > label:first-child,.cy-workspace .cy-patient-fields > label:has(input) { grid-column:1/-1; }.cy-workspace .report-form .report-grid { grid-template-columns:minmax(0,1fr); }.cy-workspace .inherited { grid-template-columns:repeat(2,minmax(0,1fr)); }.cy-workspace .cy-form-head { flex-wrap:wrap; } }
+@media(max-width:760px) {
+    .cy-workspace .cy-patient-fields > label:has([name="patient_age"]),
+    .cy-workspace .cy-patient-fields > label:has([name="request_date"]),
+    .cy-workspace .cy-patient-fields > label:has([name="sample_type_other"]) { grid-column:1/-1; }
+}

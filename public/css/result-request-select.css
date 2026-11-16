@@ -1,0 +1,19 @@
+.results-new-panel .select2-container{flex:1;min-width:220px;width:auto!important;max-width:100%;font:14px "Segoe UI",sans-serif}
+.results-new-panel .select2-selection--single{height:44px;border:1px solid #afcbbb;border-radius:8px;background:#fff}
+.results-new-panel .select2-selection--single .select2-selection__rendered{line-height:42px;padding-left:12px;padding-right:48px;color:#173a2d}
+.results-new-panel .select2-selection--single .select2-selection__arrow{height:42px;right:8px}
+.results-new-panel .select2-selection__placeholder{color:#64766c}
+.results-new-panel .select2-container--open .select2-selection,.results-new-panel .select2-container--focus .select2-selection{border-color:#16844e;box-shadow:0 0 0 3px #16844e1a}
+.result-request-dropdown{border:1px solid #a8cbb8;border-radius:8px!important;box-shadow:0 10px 26px #163e2624;font:14px "Segoe UI",sans-serif;color:#173a2d;overflow:hidden}
+.result-request-dropdown .select2-search{padding:10px}
+.result-request-dropdown .select2-search__field{height:40px;border:1px solid #b6cfc1!important;border-radius:6px;padding:8px 10px!important;font:inherit}
+.result-request-dropdown .select2-results__options{max-height:240px!important;overscroll-behavior:contain}
+.result-request-dropdown .select2-results__option{padding:11px 12px;line-height:1.5;white-space:normal;overflow-wrap:anywhere}
+.result-request-dropdown .select2-results__option--highlighted[aria-selected]{background:#16844e;color:white}
+.result-request-dropdown .select2-results__message{color:#65766b;font-size:13px}
+html[data-theme="dark"] .results-new-panel .select2-selection--single,html[data-theme="dark"] .result-request-dropdown{background:#172125;border-color:#4b6068;color:#e5f1ea}
+html[data-theme="dark"] .results-new-panel .select2-selection--single .select2-selection__rendered,html[data-theme="dark"] .results-new-panel .select2-selection__placeholder{color:#e5f1ea}
+html[data-theme="dark"] .result-request-dropdown .select2-search__field{background:#202d31;border-color:#4b6068!important;color:#e5f1ea}
+html[data-theme="dark"] .result-request-dropdown .select2-results__option[aria-selected="true"]{background:#29463b}
+html[data-theme="dark"] .result-request-dropdown .select2-results__option--highlighted[aria-selected]{background:#16844e}
+@media(max-width:760px){.results-new-panel .select2-container{flex:auto;min-width:0;width:100%!important}}

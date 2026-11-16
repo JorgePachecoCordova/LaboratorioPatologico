@@ -1,0 +1,12 @@
+.ap-date-control { display:block; position:relative; }
+.ap-page .ap-date-control .date-input { background-image:none!important; color-scheme:light; }
+.ap-date-control .date-input::-webkit-calendar-picker-indicator { opacity:1!important; background:revert!important; }
+.ap-date-control.ap-date-enhanced .date-input::-webkit-calendar-picker-indicator { display:none; }
+.ap-date-control .ap-date-open { position:absolute; inset-inline-end:4px; top:6px; display:grid; place-items:center; width:34px; height:32px; padding:0; border:0; border-radius:6px; background:transparent; color:#13734b; cursor:pointer; }
+.ap-date-control .ap-date-open[hidden] { display:none; }
+.ap-date-control .ap-date-open .ui-icon { width:20px; height:20px; margin:0; }
+.ap-date-control .ap-date-open:hover { background:#e7f3ec; }
+.ap-date-control .ap-date-open:focus-visible { outline:2px solid #16844e; outline-offset:2px; }
+html[data-theme="dark"] .ap-page .ap-date-control .date-input { color-scheme:dark; }
+html[data-theme="dark"] .ap-date-control .ap-date-open { color:#91dfb5; }
+html[data-theme="dark"] .ap-date-control .ap-date-open:hover { background:#244737; }

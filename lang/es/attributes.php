@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'patient_id' => 'paciente', 'patient_name' => 'nombre del paciente',
+    'full_name' => 'nombre completo', 'identity_document' => 'CI',
+    'patient_age' => 'edad', 'patient_sex' => 'sexo', 'birth_date' => 'fecha de nacimiento',
+    'request_date' => 'fecha de solicitud', 'result_date' => 'fecha del resultado',
+    'report_date' => 'fecha del informe', 'sample_collection_date' => 'fecha de toma de muestra',
+    'care_type' => 'atención', 'bed_number' => 'cama',
+    'registration_number' => 'número de registro', 'clinical_history_number' => 'historia clínica',
+    'hospital_service_id' => 'servicio', 'requesting_physician_id' => 'médico solicitante',
+    'sample_type_code' => 'tipo de muestra', 'sample_type_other' => 'otra muestra',
+    'sample_taken_at' => 'hora de toma', 'sample_received_at' => 'hora de recepción',
+    'clinical_diagnosis' => 'diagnóstico presuntivo', 'clinical_data' => 'datos clínicos',
+    'description' => 'descripción', 'conclusion' => 'conclusión', 'note' => 'nota', 'notes' => 'comentario',
+    'diagnosis' => 'diagnóstico', 'diagnosis_entries' => 'diagnósticos',
+    'diagnosis_entries.*.pathology_type_id' => 'diagnóstico',
+    'macroscopic_description' => 'descripción macroscópica', 'microscopic_description' => 'descripción microscópica',
+    'username' => 'usuario', 'password' => 'contraseña', 'name' => 'nombre', 'email' => 'correo electrónico',
+    'role' => 'rol', 'phone' => 'teléfono', 'year' => 'gestión', 'month' => 'mes',
+    'date' => 'fecha', 'module' => 'módulo', 'sample_quantity' => 'cantidad de muestras',
+    'district_id' => 'distrito', 'area_id' => 'área', 'sector_id' => 'sector',
+    'municipality_id' => 'municipio', 'health_facility_id' => 'establecimiento',
+    'regional_secretariat_id' => 'secretaría regional', 'reader' => 'lector',
+];

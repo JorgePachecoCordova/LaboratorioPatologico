@@ -1,0 +1,21 @@
+/* Shared vector icons keep the visible text as the accessible control name. */
+.ui-icon { display:inline-block; flex:0 0 auto; vertical-align:middle; pointer-events:none; }
+.ui-field-caption { display:flex; align-items:center; gap:7px; }
+.ui-field-caption .ui-icon, .profile-summary dt .ui-icon { color:var(--ui-accent, #247859); }
+.profile-summary dt { display:flex; align-items:center; gap:7px; }
+html[data-theme="dark"] .ui-field-caption .ui-icon,
+html[data-theme="dark"] .profile-summary dt .ui-icon { color:#8dd9b5; }
+button > .ui-icon, a > .ui-icon { margin-inline-end:6px; }
+@media screen {
+    :is(button, a):has(> .ui-icon) { align-items:center; }
+    :is(.profile-save,.cfg-btn,.btn,.btn-primary,.btn-secondary):has(> .ui-icon) {
+        display:inline-flex; justify-content:center; gap:7px;
+        transition:box-shadow .18s ease, filter .18s ease;
+    }
+    :is(.profile-save,.cfg-btn,.btn,.btn-primary,.btn-secondary) > .ui-icon { margin-inline-end:0; }
+    :is(.profile-save,.cfg-btn,.btn,.btn-primary,.btn-secondary):hover:not(:disabled) { filter:brightness(.97); box-shadow:0 3px 9px #102b201a; }
+    :is(button,a):has(> .ui-icon):focus-visible { outline:3px solid #398968; outline-offset:3px; }
+}
+@media (prefers-reduced-motion:reduce) {
+    :is(.profile-save,.cfg-btn,.btn,.btn-primary,.btn-secondary):has(> .ui-icon) { transition:none; }
+}
